@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-1161015-9060-1np8f1n"
+    ]
+  ],
+  "_from": "..\\d-1161015-9060-16hz5bj\\package.tgz",
+  "_id": "local-server-web-view@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/local-server-web-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1161015-9060-16hz5bj\\package.tgz",
+  "_shasum": "806901dc925d91dd31b2088d743b458ee2504234",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161015-9060-16hz5bj\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-1161015-9060-1np8f1n",
+  "activationCommands": {
+    "atom-workspace": "local-server-web-view:open"
+  },
+  "bugs": {
+    "url": "https://github.com/brycefranzen/local-server-web-view/issues"
+  },
+  "dependencies": {},
+  "description": "Open files in a web browser that are located on a local server with a simple keystroke.  Edit local-server-web-view.coffee to add your local server URL's.  View file by pressing ctrl+alt+v (must be in associated project)",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/brycefranzen/local-server-web-view#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/local-server-web-view",
+  "name": "local-server-web-view",
+  "optionalDependencies": {},
+  "readme": "# local-server-web-view package\n\nA simple Open in Browser Atom.io Package for individuals who use a local server.\nThis allows you to right click and open the current file in your default browser.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brycefranzen/local-server-web-view.git"
+  },
+  "version": "1.1.0"
+}

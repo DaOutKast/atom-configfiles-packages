@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Require a file/module using node-requirer",
+        "command": "node-requirer:require"
+      },
+      {
+        "label": "Import a file/module using node-requirer",
+        "command": "node-requirer:import"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "node-requirer",
+          "submenu": [
+            {
+              "label": "Require",
+              "command": "node-requirer:require"
+            },
+            {
+              "label": "Import",
+              "command": "node-requirer:import"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

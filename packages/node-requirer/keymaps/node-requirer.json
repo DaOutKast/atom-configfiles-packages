@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-i": "node-requirer:import",
+    "ctrl-shift-i": "node-requirer:require"
+  }
+}

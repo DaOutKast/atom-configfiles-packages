@@ -1,0 +1,39 @@
+{
+  "name": "resize-indent",
+  "main": "./lib/resize-indent",
+  "version": "0.3.0",
+  "description": "Easily change the indent size of a file",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfpacheco/atom-resize-indent.git"
+  },
+  "engines": {
+    "atom": ">0.61.0"
+  },
+  "readme": "# resize-indent\n\nEasily change the indent size of a file\n\n## Getting Started\nInstall the module with: `apm install resize-indent`\n\n## Documentation\nThere are two commands available:\n- **Ctrl+}** Doubles the indent size\n- **Ctrl+{** Split indent size in half\n\n## License\nCopyright (c) 2014 . Licensed under the MIT license.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gfpacheco/atom-resize-indent/issues"
+  },
+  "homepage": "https://github.com/gfpacheco/atom-resize-indent#readme",
+  "_id": "resize-indent@0.3.0",
+  "_shasum": "619f96edf61c3eae19cd262946de6e0bf97e183f",
+  "_resolved": "file:..\\d-116813-2492-22hrcn\\package.tgz",
+  "_from": "..\\d-116813-2492-22hrcn\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "index.coffee",
+        "lib\\resize-indent.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

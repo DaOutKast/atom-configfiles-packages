@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-1161023-19108-caq89n"
+    ]
+  ],
+  "_from": "..\\d-1161023-19108-1svwz0e\\package.tgz",
+  "_id": "coffee-compile@0.24.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/coffee-compile",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1161023-19108-1svwz0e\\package.tgz",
+  "_shasum": "d72d104bd93a9371a05de186019cf9442d56fc97",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-1161023-19108-1svwz0e\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-1161023-19108-caq89n",
+  "bugs": {
+    "url": "https://github.com/adrianlee44/atom-coffee-compile/issues"
+  },
+  "consumedServices": {
+    "coffee-compile.provider": {
+      "description": "A package for compiling coffeescript",
+      "versions": {
+        "1.0.0": "registerProviders"
+      }
+    }
+  },
+  "dependencies": {
+    "coffee-script": "1.11.1",
+    "resolve": "^1.1.7",
+    "season": "^5.4.0"
+  },
+  "description": "Preview, compile and/or save CoffeeScript in editor to Javascript",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.9.0"
+  },
+  "homepage": "https://github.com/adrianlee44/atom-coffee-compile#readme",
+  "keywords": [
+    "preview",
+    "compile",
+    "coffeescript",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "coffee-compile",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# coffee-compile package [![Build Status](https://img.shields.io/travis/adrianlee44/atom-coffee-compile/master.svg?style=flat-square)](https://travis-ci.org/adrianlee44/atom-coffee-compile)\n\nPreview, compile and/or save CoffeeScript in editor to Javascript\n- Mac: `cmd+shift+c`\n- Linux/Windows: `ctrl-alt-c`\n\n## Options\n- `Compile on save` (default: false)\n- `Compile on save without preview` (default: false)\n- `Split pane direction` (default: 'Right')\n- `Destination filepath` (default: '.')\n- `Flatten` (default: false)\n- `cwd` - All sources are relative to this path (default: '.')\n- `Source(s)` - Source folders to compile, relative to cwd (default: '.')\n- `Disable top level function wrapper` (default: true)\n- `Focus editor after compile` (default: false)\n\n### Project based configuration\nAdd `coffee-compile.cson` to the project root\n\nSee [wiki](https://github.com/adrianlee44/atom-coffee-compile/wiki/Project-based-configuration) for more details\n\n![](https://raw.github.com/adrianlee44/atom-coffee-compile/master/screenshot.png)\n\n## TODO\n- Recompile on change option\n- Add sourcemap support\n\n## Changelog\nSee [changelog](https://github.com/adrianlee44/atom-coffee-compile/blob/master/CHANGELOG.md) for more information\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianlee44/atom-coffee-compile.git"
+  },
+  "version": "0.24.0"
+}

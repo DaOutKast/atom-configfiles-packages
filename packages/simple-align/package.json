@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116925-5736-177enzb"
+    ]
+  ],
+  "_from": "..\\d-116925-5736-3j5v7e\\package.tgz",
+  "_id": "simple-align@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/simple-align",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-116925-5736-3j5v7e\\package.tgz",
+  "_shasum": "c12fba275eca86cd2834a0f1a26a006728fcf3e7",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116925-5736-3j5v7e\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116925-5736-177enzb",
+  "activationCommands": {
+    "atom-workspace": "simple-align:align"
+  },
+  "bugs": {
+    "url": "https://github.com/stevenhauser/atom-simple-align/issues"
+  },
+  "dependencies": {},
+  "description": "Simple multiple cursor alignment",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/stevenhauser/atom-simple-align#readme",
+  "keywords": [
+    "atom",
+    "align",
+    "cursor"
+  ],
+  "license": "MIT",
+  "main": "./lib/simple-align",
+  "name": "simple-align",
+  "optionalDependencies": {},
+  "readme": "# Atom simple align package\n\nA simple package to align multiple cursors, and that's it. *Why create another alignment package when there are already a ton of them?* Because for what I wanted they were too complicated and tried to intelligently align on given characters, add spaces before or after characters, etc, and they gave unexpected results sometimes.\n\n![Atom simple align example](https://cloud.githubusercontent.com/assets/963631/9156900/60d563a2-3eb7-11e5-9ddb-8a30677ebca5.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenhauser/atom-simple-align.git"
+  },
+  "version": "0.2.0"
+}

@@ -1,0 +1,3901 @@
+".source.python":
+  "©️":
+    body: "u'\\\\U000000A9'"
+    prefix: "ji:copyright-sign"
+  "®️":
+    body: "u'\\\\U000000AE'"
+    prefix: "ji:registered-sign"
+  "‼️":
+    body: "u'\\\\U0000203C'"
+    prefix: "ji:double-exclamation-mark"
+  "⁉️":
+    body: "u'\\\\U00002049'"
+    prefix: "ji:exclamation-question-mark"
+  "™️":
+    body: "u'\\\\U00002122'"
+    prefix: "ji:trade-mark-sign"
+  "ℹ️":
+    body: "u'\\\\U00002139'"
+    prefix: "ji:information-source"
+  "↔️":
+    body: "u'\\\\U00002194'"
+    prefix: "ji:left-right-arrow"
+  "↕️":
+    body: "u'\\\\U00002195'"
+    prefix: "ji:up-down-arrow"
+  "↖️":
+    body: "u'\\\\U00002196'"
+    prefix: "ji:north-west-arrow"
+  "↗️":
+    body: "u'\\\\U00002197'"
+    prefix: "ji:north-east-arrow"
+  "↘️":
+    body: "u'\\\\U00002198'"
+    prefix: "ji:south-east-arrow"
+  "↙️":
+    body: "u'\\\\U00002199'"
+    prefix: "ji:south-west-arrow"
+  "↩️":
+    body: "u'\\\\U000021A9'"
+    prefix: "ji:leftwards-arrow-with-hook"
+  "↪️":
+    body: "u'\\\\U000021AA'"
+    prefix: "ji:rightwards-arrow-with-hook"
+  "⌚️":
+    body: "u'\\\\U0000231A'"
+    prefix: "ji:watch"
+  "⌛️":
+    body: "u'\\\\U0000231B'"
+    prefix: "ji:hourglass"
+  "⌨️":
+    body: "u'\\\\U00002328'"
+    prefix: "ji:keyboard"
+  "⏏":
+    body: "u'\\\\U000023CF'"
+    prefix: "ji:eject-symbol"
+  "⏩":
+    body: "u'\\\\U000023E9'"
+    prefix: "ji:black-right-pointing-double-triangle"
+  "⏪":
+    body: "u'\\\\U000023EA'"
+    prefix: "ji:black-left-pointing-double-triangle"
+  "⏫":
+    body: "u'\\\\U000023EB'"
+    prefix: "ji:black-up-pointing-double-triangle"
+  "⏬":
+    body: "u'\\\\U000023EC'"
+    prefix: "ji:black-down-pointing-double-triangle"
+  "⏭":
+    body: "u'\\\\U000023ED'"
+    prefix: "ji:black-right-pointing-double-triangle-with-vertical-bar"
+  "⏮":
+    body: "u'\\\\U000023EE'"
+    prefix: "ji:black-left-pointing-double-triangle-with-vertical-bar"
+  "⏯":
+    body: "u'\\\\U000023EF'"
+    prefix: "ji:black-right-pointing-triangle-with-double-vertical-bar"
+  "⏰":
+    body: "u'\\\\U000023F0'"
+    prefix: "ji:alarm-clock"
+  "⏱":
+    body: "u'\\\\U000023F1'"
+    prefix: "ji:stopwatch"
+  "⏲":
+    body: "u'\\\\U000023F2'"
+    prefix: "ji:timer-clock"
+  "⏳":
+    body: "u'\\\\U000023F3'"
+    prefix: "ji:hourglass-with-flowing-sand"
+  "⏸":
+    body: "u'\\\\U000023F8'"
+    prefix: "ji:double-vertical-bar"
+  "⏹":
+    body: "u'\\\\U000023F9'"
+    prefix: "ji:black-square-for-stop"
+  "⏺":
+    body: "u'\\\\U000023FA'"
+    prefix: "ji:black-circle-for-record"
+  "Ⓜ️":
+    body: "u'\\\\U000024C2'"
+    prefix: "ji:circled-latin-capital-letter-m"
+  "▪️":
+    body: "u'\\\\U000025AA'"
+    prefix: "ji:black-small-square"
+  "▫️":
+    body: "u'\\\\U000025AB'"
+    prefix: "ji:white-small-square"
+  "▶️":
+    body: "u'\\\\U000025B6'"
+    prefix: "ji:black-right-pointing-triangle"
+  "◀️":
+    body: "u'\\\\U000025C0'"
+    prefix: "ji:black-left-pointing-triangle"
+  "◻️":
+    body: "u'\\\\U000025FB'"
+    prefix: "ji:white-medium-square"
+  "◼️":
+    body: "u'\\\\U000025FC'"
+    prefix: "ji:black-medium-square"
+  "◽️":
+    body: "u'\\\\U000025FD'"
+    prefix: "ji:white-medium-small-square"
+  "◾️":
+    body: "u'\\\\U000025FE'"
+    prefix: "ji:black-medium-small-square"
+  "☀️":
+    body: "u'\\\\U00002600'"
+    prefix: "ji:black-sun-with-rays"
+  "☁️":
+    body: "u'\\\\U00002601'"
+    prefix: "ji:cloud"
+  "☂️":
+    body: "u'\\\\U00002602'"
+    prefix: "ji:umbrella"
+  "☃️":
+    body: "u'\\\\U00002603'"
+    prefix: "ji:snowman"
+  "☄️":
+    body: "u'\\\\U00002604'"
+    prefix: "ji:comet"
+  "☎️":
+    body: "u'\\\\U0000260E'"
+    prefix: "ji:black-telephone"
+  "☑️":
+    body: "u'\\\\U00002611'"
+    prefix: "ji:ballot-box-with-check"
+  "☔️":
+    body: "u'\\\\U00002614'"
+    prefix: "ji:umbrella-with-rain-drops"
+  "☕️":
+    body: "u'\\\\U00002615'"
+    prefix: "ji:hot-beverage"
+  "☘":
+    body: "u'\\\\U00002618'"
+    prefix: "ji:shamrock"
+  "☝️":
+    body: "u'\\\\U0000261D'"
+    prefix: "ji:white-up-pointing-index"
+  "☠️":
+    body: "u'\\\\U00002620'"
+    prefix: "ji:skull-and-crossbones"
+  "☢️":
+    body: "u'\\\\U00002622'"
+    prefix: "ji:radioactive-sign"
+  "☣️":
+    body: "u'\\\\U00002623'"
+    prefix: "ji:biohazard-sign"
+  "☦️":
+    body: "u'\\\\U00002626'"
+    prefix: "ji:orthodox-cross"
+  "☪️":
+    body: "u'\\\\U0000262A'"
+    prefix: "ji:star-and-crescent"
+  "☮️":
+    body: "u'\\\\U0000262E'"
+    prefix: "ji:peace-symbol"
+  "☯️":
+    body: "u'\\\\U0000262F'"
+    prefix: "ji:yin-yang"
+  "☸️":
+    body: "u'\\\\U00002638'"
+    prefix: "ji:wheel-of-dharma"
+  "☹️":
+    body: "u'\\\\U00002639'"
+    prefix: "ji:white-frowning-face"
+  "☺️":
+    body: "u'\\\\U0000263A'"
+    prefix: "ji:white-smiling-face"
+  "♈️":
+    body: "u'\\\\U00002648'"
+    prefix: "ji:aries"
+  "♉️":
+    body: "u'\\\\U00002649'"
+    prefix: "ji:taurus"
+  "♊️":
+    body: "u'\\\\U0000264A'"
+    prefix: "ji:gemini"
+  "♋️":
+    body: "u'\\\\U0000264B'"
+    prefix: "ji:cancer"
+  "♌️":
+    body: "u'\\\\U0000264C'"
+    prefix: "ji:leo"
+  "♍️":
+    body: "u'\\\\U0000264D'"
+    prefix: "ji:virgo"
+  "♎️":
+    body: "u'\\\\U0000264E'"
+    prefix: "ji:libra"
+  "♏️":
+    body: "u'\\\\U0000264F'"
+    prefix: "ji:scorpius"
+  "♐️":
+    body: "u'\\\\U00002650'"
+    prefix: "ji:sagittarius"
+  "♑️":
+    body: "u'\\\\U00002651'"
+    prefix: "ji:capricorn"
+  "♒️":
+    body: "u'\\\\U00002652'"
+    prefix: "ji:aquarius"
+  "♓️":
+    body: "u'\\\\U00002653'"
+    prefix: "ji:pisces"
+  "♠️":
+    body: "u'\\\\U00002660'"
+    prefix: "ji:black-spade-suit"
+  "♣️":
+    body: "u'\\\\U00002663'"
+    prefix: "ji:black-club-suit"
+  "♥️":
+    body: "u'\\\\U00002665'"
+    prefix: "ji:black-heart-suit"
+  "♦️":
+    body: "u'\\\\U00002666'"
+    prefix: "ji:black-diamond-suit"
+  "♨️":
+    body: "u'\\\\U00002668'"
+    prefix: "ji:hot-springs"
+  "♻️":
+    body: "u'\\\\U0000267B'"
+    prefix: "ji:black-universal-recycling-symbol"
+  "♿️":
+    body: "u'\\\\U0000267F'"
+    prefix: "ji:wheelchair-symbol"
+  "⚒":
+    body: "u'\\\\U00002692'"
+    prefix: "ji:hammer-and-pick"
+  "⚓️":
+    body: "u'\\\\U00002693'"
+    prefix: "ji:anchor"
+  "⚔":
+    body: "u'\\\\U00002694'"
+    prefix: "ji:crossed-swords"
+  "⚖":
+    body: "u'\\\\U00002696'"
+    prefix: "ji:scales"
+  "⚗":
+    body: "u'\\\\U00002697'"
+    prefix: "ji:alembic"
+  "⚙":
+    body: "u'\\\\U00002699'"
+    prefix: "ji:gear"
+  "⚛":
+    body: "u'\\\\U0000269B'"
+    prefix: "ji:atom-symbol"
+  "⚜":
+    body: "u'\\\\U0000269C'"
+    prefix: "ji:fleur-de-lis"
+  "⚠️":
+    body: "u'\\\\U000026A0'"
+    prefix: "ji:warning-sign"
+  "⚡️":
+    body: "u'\\\\U000026A1'"
+    prefix: "ji:high-voltage-sign"
+  "⚪️":
+    body: "u'\\\\U000026AA'"
+    prefix: "ji:medium-white-circle"
+  "⚫️":
+    body: "u'\\\\U000026AB'"
+    prefix: "ji:medium-black-circle"
+  "⚰":
+    body: "u'\\\\U000026B0'"
+    prefix: "ji:coffin"
+  "⚱":
+    body: "u'\\\\U000026B1'"
+    prefix: "ji:funeral-urn"
+  "⚽️":
+    body: "u'\\\\U000026BD'"
+    prefix: "ji:soccer-ball"
+  "⚾️":
+    body: "u'\\\\U000026BE'"
+    prefix: "ji:baseball"
+  "⛄️":
+    body: "u'\\\\U000026C4'"
+    prefix: "ji:snowman-without-snow"
+  "⛅️":
+    body: "u'\\\\U000026C5'"
+    prefix: "ji:sun-behind-cloud"
+  "⛈":
+    body: "u'\\\\U000026C8'"
+    prefix: "ji:thunder-cloud-and-rain"
+  "⛎":
+    body: "u'\\\\U000026CE'"
+    prefix: "ji:ophiuchus"
+  "⛏":
+    body: "u'\\\\U000026CF'"
+    prefix: "ji:pick"
+  "⛑":
+    body: "u'\\\\U000026D1'"
+    prefix: "ji:helmet-with-white-cross"
+  "⛓":
+    body: "u'\\\\U000026D3'"
+    prefix: "ji:chains"
+  "⛔️":
+    body: "u'\\\\U000026D4'"
+    prefix: "ji:no-entry"
+  "⛩":
+    body: "u'\\\\U000026E9'"
+    prefix: "ji:shinto-shrine"
+  "⛪️":
+    body: "u'\\\\U000026EA'"
+    prefix: "ji:church"
+  "⛰":
+    body: "u'\\\\U000026F0'"
+    prefix: "ji:mountain"
+  "⛱":
+    body: "u'\\\\U000026F1'"
+    prefix: "ji:umbrella-on-ground"
+  "⛲️":
+    body: "u'\\\\U000026F2'"
+    prefix: "ji:fountain"
+  "⛳️":
+    body: "u'\\\\U000026F3'"
+    prefix: "ji:flag-in-hole"
+  "⛴":
+    body: "u'\\\\U000026F4'"
+    prefix: "ji:ferry"
+  "⛵️":
+    body: "u'\\\\U000026F5'"
+    prefix: "ji:sailboat"
+  "⛷":
+    body: "u'\\\\U000026F7'"
+    prefix: "ji:skier"
+  "⛸":
+    body: "u'\\\\U000026F8'"
+    prefix: "ji:ice-skate"
+  "⛹":
+    body: "u'\\\\U000026F9'"
+    prefix: "ji:person-with-ball"
+  "⛺️":
+    body: "u'\\\\U000026FA'"
+    prefix: "ji:tent"
+  "⛽️":
+    body: "u'\\\\U000026FD'"
+    prefix: "ji:fuel-pump"
+  "✂️":
+    body: "u'\\\\U00002702'"
+    prefix: "ji:black-scissors"
+  "✅":
+    body: "u'\\\\U00002705'"
+    prefix: "ji:white-heavy-check-mark"
+  "✈️":
+    body: "u'\\\\U00002708'"
+    prefix: "ji:airplane"
+  "✉️":
+    body: "u'\\\\U00002709'"
+    prefix: "ji:envelope"
+  "✊":
+    body: "u'\\\\U0000270A'"
+    prefix: "ji:raised-fist"
+  "✋":
+    body: "u'\\\\U0000270B'"
+    prefix: "ji:raised-hand"
+  "✌️":
+    body: "u'\\\\U0000270C'"
+    prefix: "ji:victory-hand"
+  "✍️":
+    body: "u'\\\\U0000270D'"
+    prefix: "ji:writing-hand"
+  "✏️":
+    body: "u'\\\\U0000270F'"
+    prefix: "ji:pencil"
+  "✒️":
+    body: "u'\\\\U00002712'"
+    prefix: "ji:black-nib"
+  "✔️":
+    body: "u'\\\\U00002714'"
+    prefix: "ji:heavy-check-mark"
+  "✖️":
+    body: "u'\\\\U00002716'"
+    prefix: "ji:heavy-multiplication-x"
+  "✝️":
+    body: "u'\\\\U0000271D'"
+    prefix: "ji:latin-cross"
+  "✡️":
+    body: "u'\\\\U00002721'"
+    prefix: "ji:star-of-david"
+  "✨":
+    body: "u'\\\\U00002728'"
+    prefix: "ji:sparkles"
+  "✳️":
+    body: "u'\\\\U00002733'"
+    prefix: "ji:eight-spoked-asterisk"
+  "✴️":
+    body: "u'\\\\U00002734'"
+    prefix: "ji:eight-pointed-black-star"
+  "❄️":
+    body: "u'\\\\U00002744'"
+    prefix: "ji:snowflake"
+  "❇️":
+    body: "u'\\\\U00002747'"
+    prefix: "ji:sparkle"
+  "❌":
+    body: "u'\\\\U0000274C'"
+    prefix: "ji:cross-mark"
+  "❎":
+    body: "u'\\\\U0000274E'"
+    prefix: "ji:negative-squared-cross-mark"
+  "❓":
+    body: "u'\\\\U00002753'"
+    prefix: "ji:black-question-mark-ornament"
+  "❔":
+    body: "u'\\\\U00002754'"
+    prefix: "ji:white-question-mark-ornament"
+  "❕":
+    body: "u'\\\\U00002755'"
+    prefix: "ji:white-exclamation-mark-ornament"
+  "❗️":
+    body: "u'\\\\U00002757'"
+    prefix: "ji:heavy-exclamation-mark-symbol"
+  "❣️":
+    body: "u'\\\\U00002763'"
+    prefix: "ji:heavy-heart-exclamation-mark-ornament"
+  "❤️":
+    body: "u'\\\\U00002764'"
+    prefix: "ji:heavy-black-heart"
+  "➕":
+    body: "u'\\\\U00002795'"
+    prefix: "ji:heavy-plus-sign"
+  "➖":
+    body: "u'\\\\U00002796'"
+    prefix: "ji:heavy-minus-sign"
+  "➗":
+    body: "u'\\\\U00002797'"
+    prefix: "ji:heavy-division-sign"
+  "➡️":
+    body: "u'\\\\U000027A1'"
+    prefix: "ji:black-rightwards-arrow"
+  "➰":
+    body: "u'\\\\U000027B0'"
+    prefix: "ji:curly-loop"
+  "➿":
+    body: "u'\\\\U000027BF'"
+    prefix: "ji:double-curly-loop"
+  "⤴️":
+    body: "u'\\\\U00002934'"
+    prefix: "ji:arrow-pointing-rightwards-then-curving-upwards"
+  "⤵️":
+    body: "u'\\\\U00002935'"
+    prefix: "ji:arrow-pointing-rightwards-then-curving-downwards"
+  "⬅️":
+    body: "u'\\\\U00002B05'"
+    prefix: "ji:leftwards-black-arrow"
+  "⬆️":
+    body: "u'\\\\U00002B06'"
+    prefix: "ji:upwards-black-arrow"
+  "⬇️":
+    body: "u'\\\\U00002B07'"
+    prefix: "ji:downwards-black-arrow"
+  "⬛️":
+    body: "u'\\\\U00002B1B'"
+    prefix: "ji:black-large-square"
+  "⬜️":
+    body: "u'\\\\U00002B1C'"
+    prefix: "ji:white-large-square"
+  "⭐️":
+    body: "u'\\\\U00002B50'"
+    prefix: "ji:white-medium-star"
+  "⭕️":
+    body: "u'\\\\U00002B55'"
+    prefix: "ji:heavy-large-circle"
+  "〰️":
+    body: "u'\\\\U00003030'"
+    prefix: "ji:wavy-dash"
+  "〽️":
+    body: "u'\\\\U0000303D'"
+    prefix: "ji:part-alternation-mark"
+  "㊗️":
+    body: "u'\\\\U00003297'"
+    prefix: "ji:circled-ideograph-congratulation"
+  "㊙️":
+    body: "u'\\\\U00003299'"
+    prefix: "ji:circled-ideograph-secret"
+  "🀄️":
+    body: "u'\\\\U0001F004'"
+    prefix: "ji:mahjong-tile-red-dragon"
+  "🃏":
+    body: "u'\\\\U0001F0CF'"
+    prefix: "ji:playing-card-black-joker"
+  "🅰️":
+    body: "u'\\\\U0001F170'"
+    prefix: "ji:negative-squared-latin-capital-letter-a"
+  "🅱️":
+    body: "u'\\\\U0001F171'"
+    prefix: "ji:negative-squared-latin-capital-letter-b"
+  "🅾️":
+    body: "u'\\\\U0001F17E'"
+    prefix: "ji:negative-squared-latin-capital-letter-o"
+  "🅿️":
+    body: "u'\\\\U0001F17F'"
+    prefix: "ji:negative-squared-latin-capital-letter-p"
+  "🆎":
+    body: "u'\\\\U0001F18E'"
+    prefix: "ji:negative-squared-ab"
+  "🆑":
+    body: "u'\\\\U0001F191'"
+    prefix: "ji:squared-cl"
+  "🆒":
+    body: "u'\\\\U0001F192'"
+    prefix: "ji:squared-cool"
+  "🆓":
+    body: "u'\\\\U0001F193'"
+    prefix: "ji:squared-free"
+  "🆔":
+    body: "u'\\\\U0001F194'"
+    prefix: "ji:squared-id"
+  "🆕":
+    body: "u'\\\\U0001F195'"
+    prefix: "ji:squared-new"
+  "🆖":
+    body: "u'\\\\U0001F196'"
+    prefix: "ji:squared-ng"
+  "🆗":
+    body: "u'\\\\U0001F197'"
+    prefix: "ji:squared-ok"
+  "🆘":
+    body: "u'\\\\U0001F198'"
+    prefix: "ji:squared-sos"
+  "🆙":
+    body: "u'\\\\U0001F199'"
+    prefix: "ji:squared-up-with-exclamation-mark"
+  "🆚":
+    body: "u'\\\\U0001F19A'"
+    prefix: "ji:squared-vs"
+  "🈁":
+    body: "u'\\\\U0001F201'"
+    prefix: "ji:squared-katakana-koko"
+  "🈂️":
+    body: "u'\\\\U0001F202'"
+    prefix: "ji:squared-katakana-sa"
+  "🈚️":
+    body: "u'\\\\U0001F21A'"
+    prefix: "ji:squared-cjk-unified-ideograph-7121"
+  "🈯️":
+    body: "u'\\\\U0001F22F'"
+    prefix: "ji:squared-cjk-unified-ideograph-6307"
+  "🈲":
+    body: "u'\\\\U0001F232'"
+    prefix: "ji:squared-cjk-unified-ideograph-7981"
+  "🈳":
+    body: "u'\\\\U0001F233'"
+    prefix: "ji:squared-cjk-unified-ideograph-7a7a"
+  "🈴":
+    body: "u'\\\\U0001F234'"
+    prefix: "ji:squared-cjk-unified-ideograph-5408"
+  "🈵":
+    body: "u'\\\\U0001F235'"
+    prefix: "ji:squared-cjk-unified-ideograph-6e80"
+  "🈶":
+    body: "u'\\\\U0001F236'"
+    prefix: "ji:squared-cjk-unified-ideograph-6709"
+  "🈷️":
+    body: "u'\\\\U0001F237'"
+    prefix: "ji:squared-cjk-unified-ideograph-6708"
+  "🈸":
+    body: "u'\\\\U0001F238'"
+    prefix: "ji:squared-cjk-unified-ideograph-7533"
+  "🈹":
+    body: "u'\\\\U0001F239'"
+    prefix: "ji:squared-cjk-unified-ideograph-5272"
+  "🈺":
+    body: "u'\\\\U0001F23A'"
+    prefix: "ji:squared-cjk-unified-ideograph-55b6"
+  "🉐":
+    body: "u'\\\\U0001F250'"
+    prefix: "ji:circled-ideograph-advantage"
+  "🉑":
+    body: "u'\\\\U0001F251'"
+    prefix: "ji:circled-ideograph-accept"
+  "🌀":
+    body: "u'\\\\U0001F300'"
+    prefix: "ji:cyclone"
+  "🌁":
+    body: "u'\\\\U0001F301'"
+    prefix: "ji:foggy"
+  "🌂":
+    body: "u'\\\\U0001F302'"
+    prefix: "ji:closed-umbrella"
+  "🌃":
+    body: "u'\\\\U0001F303'"
+    prefix: "ji:night-with-stars"
+  "🌄":
+    body: "u'\\\\U0001F304'"
+    prefix: "ji:sunrise-over-mountains"
+  "🌅":
+    body: "u'\\\\U0001F305'"
+    prefix: "ji:sunrise"
+  "🌆":
+    body: "u'\\\\U0001F306'"
+    prefix: "ji:cityscape-at-dusk"
+  "🌇":
+    body: "u'\\\\U0001F307'"
+    prefix: "ji:sunset-over-buildings"
+  "🌈":
+    body: "u'\\\\U0001F308'"
+    prefix: "ji:rainbow"
+  "🌉":
+    body: "u'\\\\U0001F309'"
+    prefix: "ji:bridge-at-night"
+  "🌊":
+    body: "u'\\\\U0001F30A'"
+    prefix: "ji:water-wave"
+  "🌋":
+    body: "u'\\\\U0001F30B'"
+    prefix: "ji:volcano"
+  "🌌":
+    body: "u'\\\\U0001F30C'"
+    prefix: "ji:milky-way"
+  "🌍":
+    body: "u'\\\\U0001F30D'"
+    prefix: "ji:earth-globe-europe-africa"
+  "🌎":
+    body: "u'\\\\U0001F30E'"
+    prefix: "ji:earth-globe-americas"
+  "🌏":
+    body: "u'\\\\U0001F30F'"
+    prefix: "ji:earth-globe-asia-australia"
+  "🌐":
+    body: "u'\\\\U0001F310'"
+    prefix: "ji:globe-with-meridians"
+  "🌑":
+    body: "u'\\\\U0001F311'"
+    prefix: "ji:new-moon-symbol"
+  "🌒":
+    body: "u'\\\\U0001F312'"
+    prefix: "ji:waxing-crescent-moon-symbol"
+  "🌓":
+    body: "u'\\\\U0001F313'"
+    prefix: "ji:first-quarter-moon-symbol"
+  "🌔":
+    body: "u'\\\\U0001F314'"
+    prefix: "ji:waxing-gibbous-moon-symbol"
+  "🌕":
+    body: "u'\\\\U0001F315'"
+    prefix: "ji:full-moon-symbol"
+  "🌖":
+    body: "u'\\\\U0001F316'"
+    prefix: "ji:waning-gibbous-moon-symbol"
+  "🌗":
+    body: "u'\\\\U0001F317'"
+    prefix: "ji:last-quarter-moon-symbol"
+  "🌘":
+    body: "u'\\\\U0001F318'"
+    prefix: "ji:waning-crescent-moon-symbol"
+  "🌙":
+    body: "u'\\\\U0001F319'"
+    prefix: "ji:crescent-moon"
+  "🌚":
+    body: "u'\\\\U0001F31A'"
+    prefix: "ji:new-moon-with-face"
+  "🌛":
+    body: "u'\\\\U0001F31B'"
+    prefix: "ji:first-quarter-moon-with-face"
+  "🌜":
+    body: "u'\\\\U0001F31C'"
+    prefix: "ji:last-quarter-moon-with-face"
+  "🌝":
+    body: "u'\\\\U0001F31D'"
+    prefix: "ji:full-moon-with-face"
+  "🌞":
+    body: "u'\\\\U0001F31E'"
+    prefix: "ji:sun-with-face"
+  "🌟":
+    body: "u'\\\\U0001F31F'"
+    prefix: "ji:glowing-star"
+  "🌠":
+    body: "u'\\\\U0001F320'"
+    prefix: "ji:shooting-star"
+  "🌡":
+    body: "u'\\\\U0001F321'"
+    prefix: "ji:thermometer"
+  "🌤":
+    body: "u'\\\\U0001F324'"
+    prefix: "ji:white-sun-with-small-cloud"
+  "🌥":
+    body: "u'\\\\U0001F325'"
+    prefix: "ji:white-sun-behind-cloud"
+  "🌦":
+    body: "u'\\\\U0001F326'"
+    prefix: "ji:white-sun-behind-cloud-with-rain"
+  "🌧":
+    body: "u'\\\\U0001F327'"
+    prefix: "ji:cloud-with-rain"
+  "🌨":
+    body: "u'\\\\U0001F328'"
+    prefix: "ji:cloud-with-snow"
+  "🌩":
+    body: "u'\\\\U0001F329'"
+    prefix: "ji:cloud-with-lightning"
+  "🌪":
+    body: "u'\\\\U0001F32A'"
+    prefix: "ji:cloud-with-tornado"
+  "🌫":
+    body: "u'\\\\U0001F32B'"
+    prefix: "ji:fog"
+  "🌬":
+    body: "u'\\\\U0001F32C'"
+    prefix: "ji:wind-blowing-face"
+  "🌭":
+    body: "u'\\\\U0001F32D'"
+    prefix: "ji:hot-dog"
+  "🌮":
+    body: "u'\\\\U0001F32E'"
+    prefix: "ji:taco"
+  "🌯":
+    body: "u'\\\\U0001F32F'"
+    prefix: "ji:burrito"
+  "🌰":
+    body: "u'\\\\U0001F330'"
+    prefix: "ji:chestnut"
+  "🌱":
+    body: "u'\\\\U0001F331'"
+    prefix: "ji:seedling"
+  "🌲":
+    body: "u'\\\\U0001F332'"
+    prefix: "ji:evergreen-tree"
+  "🌳":
+    body: "u'\\\\U0001F333'"
+    prefix: "ji:deciduous-tree"
+  "🌴":
+    body: "u'\\\\U0001F334'"
+    prefix: "ji:palm-tree"
+  "🌵":
+    body: "u'\\\\U0001F335'"
+    prefix: "ji:cactus"
+  "🌶":
+    body: "u'\\\\U0001F336'"
+    prefix: "ji:hot-pepper"
+  "🌷":
+    body: "u'\\\\U0001F337'"
+    prefix: "ji:tulip"
+  "🌸":
+    body: "u'\\\\U0001F338'"
+    prefix: "ji:cherry-blossom"
+  "🌹":
+    body: "u'\\\\U0001F339'"
+    prefix: "ji:rose"
+  "🌺":
+    body: "u'\\\\U0001F33A'"
+    prefix: "ji:hibiscus"
+  "🌻":
+    body: "u'\\\\U0001F33B'"
+    prefix: "ji:sunflower"
+  "🌼":
+    body: "u'\\\\U0001F33C'"
+    prefix: "ji:blossom"
+  "🌽":
+    body: "u'\\\\U0001F33D'"
+    prefix: "ji:ear-of-maize"
+  "🌾":
+    body: "u'\\\\U0001F33E'"
+    prefix: "ji:ear-of-rice"
+  "🌿":
+    body: "u'\\\\U0001F33F'"
+    prefix: "ji:herb"
+  "🍀":
+    body: "u'\\\\U0001F340'"
+    prefix: "ji:four-leaf-clover"
+  "🍁":
+    body: "u'\\\\U0001F341'"
+    prefix: "ji:maple-leaf"
+  "🍂":
+    body: "u'\\\\U0001F342'"
+    prefix: "ji:fallen-leaf"
+  "🍃":
+    body: "u'\\\\U0001F343'"
+    prefix: "ji:leaf-fluttering-in-wind"
+  "🍄":
+    body: "u'\\\\U0001F344'"
+    prefix: "ji:mushroom"
+  "🍅":
+    body: "u'\\\\U0001F345'"
+    prefix: "ji:tomato"
+  "🍆":
+    body: "u'\\\\U0001F346'"
+    prefix: "ji:aubergine"
+  "🍇":
+    body: "u'\\\\U0001F347'"
+    prefix: "ji:grapes"
+  "🍈":
+    body: "u'\\\\U0001F348'"
+    prefix: "ji:melon"
+  "🍉":
+    body: "u'\\\\U0001F349'"
+    prefix: "ji:watermelon"
+  "🍊":
+    body: "u'\\\\U0001F34A'"
+    prefix: "ji:tangerine"
+  "🍋":
+    body: "u'\\\\U0001F34B'"
+    prefix: "ji:lemon"
+  "🍌":
+    body: "u'\\\\U0001F34C'"
+    prefix: "ji:banana"
+  "🍍":
+    body: "u'\\\\U0001F34D'"
+    prefix: "ji:pineapple"
+  "🍎":
+    body: "u'\\\\U0001F34E'"
+    prefix: "ji:red-apple"
+  "🍏":
+    body: "u'\\\\U0001F34F'"
+    prefix: "ji:green-apple"
+  "🍐":
+    body: "u'\\\\U0001F350'"
+    prefix: "ji:pear"
+  "🍑":
+    body: "u'\\\\U0001F351'"
+    prefix: "ji:peach"
+  "🍒":
+    body: "u'\\\\U0001F352'"
+    prefix: "ji:cherries"
+  "🍓":
+    body: "u'\\\\U0001F353'"
+    prefix: "ji:strawberry"
+  "🍔":
+    body: "u'\\\\U0001F354'"
+    prefix: "ji:hamburger"
+  "🍕":
+    body: "u'\\\\U0001F355'"
+    prefix: "ji:slice-of-pizza"
+  "🍖":
+    body: "u'\\\\U0001F356'"
+    prefix: "ji:meat-on-bone"
+  "🍗":
+    body: "u'\\\\U0001F357'"
+    prefix: "ji:poultry-leg"
+  "🍘":
+    body: "u'\\\\U0001F358'"
+    prefix: "ji:rice-cracker"
+  "🍙":
+    body: "u'\\\\U0001F359'"
+    prefix: "ji:rice-ball"
+  "🍚":
+    body: "u'\\\\U0001F35A'"
+    prefix: "ji:cooked-rice"
+  "🍛":
+    body: "u'\\\\U0001F35B'"
+    prefix: "ji:curry-and-rice"
+  "🍜":
+    body: "u'\\\\U0001F35C'"
+    prefix: "ji:steaming-bowl"
+  "🍝":
+    body: "u'\\\\U0001F35D'"
+    prefix: "ji:spaghetti"
+  "🍞":
+    body: "u'\\\\U0001F35E'"
+    prefix: "ji:bread"
+  "🍟":
+    body: "u'\\\\U0001F35F'"
+    prefix: "ji:french-fries"
+  "🍠":
+    body: "u'\\\\U0001F360'"
+    prefix: "ji:roasted-sweet-potato"
+  "🍡":
+    body: "u'\\\\U0001F361'"
+    prefix: "ji:dango"
+  "🍢":
+    body: "u'\\\\U0001F362'"
+    prefix: "ji:oden"
+  "🍣":
+    body: "u'\\\\U0001F363'"
+    prefix: "ji:sushi"
+  "🍤":
+    body: "u'\\\\U0001F364'"
+    prefix: "ji:fried-shrimp"
+  "🍥":
+    body: "u'\\\\U0001F365'"
+    prefix: "ji:fish-cake-with-swirl-design"
+  "🍦":
+    body: "u'\\\\U0001F366'"
+    prefix: "ji:soft-ice-cream"
+  "🍧":
+    body: "u'\\\\U0001F367'"
+    prefix: "ji:shaved-ice"
+  "🍨":
+    body: "u'\\\\U0001F368'"
+    prefix: "ji:ice-cream"
+  "🍩":
+    body: "u'\\\\U0001F369'"
+    prefix: "ji:doughnut"
+  "🍪":
+    body: "u'\\\\U0001F36A'"
+    prefix: "ji:cookie"
+  "🍫":
+    body: "u'\\\\U0001F36B'"
+    prefix: "ji:chocolate-bar"
+  "🍬":
+    body: "u'\\\\U0001F36C'"
+    prefix: "ji:candy"
+  "🍭":
+    body: "u'\\\\U0001F36D'"
+    prefix: "ji:lollipop"
+  "🍮":
+    body: "u'\\\\U0001F36E'"
+    prefix: "ji:custard"
+  "🍯":
+    body: "u'\\\\U0001F36F'"
+    prefix: "ji:honey-pot"
+  "🍰":
+    body: "u'\\\\U0001F370'"
+    prefix: "ji:shortcake"
+  "🍱":
+    body: "u'\\\\U0001F371'"
+    prefix: "ji:bento-box"
+  "🍲":
+    body: "u'\\\\U0001F372'"
+    prefix: "ji:pot-of-food"
+  "🍳":
+    body: "u'\\\\U0001F373'"
+    prefix: "ji:cooking"
+  "🍴":
+    body: "u'\\\\U0001F374'"
+    prefix: "ji:fork-and-knife"
+  "🍵":
+    body: "u'\\\\U0001F375'"
+    prefix: "ji:teacup-without-handle"
+  "🍶":
+    body: "u'\\\\U0001F376'"
+    prefix: "ji:sake-bottle-and-cup"
+  "🍷":
+    body: "u'\\\\U0001F377'"
+    prefix: "ji:wine-glass"
+  "🍸":
+    body: "u'\\\\U0001F378'"
+    prefix: "ji:cocktail-glass"
+  "🍹":
+    body: "u'\\\\U0001F379'"
+    prefix: "ji:tropical-drink"
+  "🍺":
+    body: "u'\\\\U0001F37A'"
+    prefix: "ji:beer-mug"
+  "🍻":
+    body: "u'\\\\U0001F37B'"
+    prefix: "ji:clinking-beer-mugs"
+  "🍼":
+    body: "u'\\\\U0001F37C'"
+    prefix: "ji:baby-bottle"
+  "🍽":
+    body: "u'\\\\U0001F37D'"
+    prefix: "ji:fork-and-knife-with-plate"
+  "🍾":
+    body: "u'\\\\U0001F37E'"
+    prefix: "ji:bottle-with-popping-cork"
+  "🍿":
+    body: "u'\\\\U0001F37F'"
+    prefix: "ji:popcorn"
+  "🎀":
+    body: "u'\\\\U0001F380'"
+    prefix: "ji:ribbon"
+  "🎁":
+    body: "u'\\\\U0001F381'"
+    prefix: "ji:wrapped-present"
+  "🎂":
+    body: "u'\\\\U0001F382'"
+    prefix: "ji:birthday-cake"
+  "🎃":
+    body: "u'\\\\U0001F383'"
+    prefix: "ji:jack-o-lantern"
+  "🎄":
+    body: "u'\\\\U0001F384'"
+    prefix: "ji:christmas-tree"
+  "🎅":
+    body: "u'\\\\U0001F385'"
+    prefix: "ji:father-christmas"
+  "🎆":
+    body: "u'\\\\U0001F386'"
+    prefix: "ji:fireworks"
+  "🎇":
+    body: "u'\\\\U0001F387'"
+    prefix: "ji:firework-sparkler"
+  "🎈":
+    body: "u'\\\\U0001F388'"
+    prefix: "ji:balloon"
+  "🎉":
+    body: "u'\\\\U0001F389'"
+    prefix: "ji:party-popper"
+  "🎊":
+    body: "u'\\\\U0001F38A'"
+    prefix: "ji:confetti-ball"
+  "🎋":
+    body: "u'\\\\U0001F38B'"
+    prefix: "ji:tanabata-tree"
+  "🎌":
+    body: "u'\\\\U0001F38C'"
+    prefix: "ji:crossed-flags"
+  "🎍":
+    body: "u'\\\\U0001F38D'"
+    prefix: "ji:pine-decoration"
+  "🎎":
+    body: "u'\\\\U0001F38E'"
+    prefix: "ji:japanese-dolls"
+  "🎏":
+    body: "u'\\\\U0001F38F'"
+    prefix: "ji:carp-streamer"
+  "🎐":
+    body: "u'\\\\U0001F390'"
+    prefix: "ji:wind-chime"
+  "🎑":
+    body: "u'\\\\U0001F391'"
+    prefix: "ji:moon-viewing-ceremony"
+  "🎒":
+    body: "u'\\\\U0001F392'"
+    prefix: "ji:school-satchel"
+  "🎓":
+    body: "u'\\\\U0001F393'"
+    prefix: "ji:graduation-cap"
+  "🎖":
+    body: "u'\\\\U0001F396'"
+    prefix: "ji:military-medal"
+  "🎗":
+    body: "u'\\\\U0001F397'"
+    prefix: "ji:reminder-ribbon"
+  "🎙":
+    body: "u'\\\\U0001F399'"
+    prefix: "ji:studio-microphone"
+  "🎚":
+    body: "u'\\\\U0001F39A'"
+    prefix: "ji:level-slider"
+  "🎛":
+    body: "u'\\\\U0001F39B'"
+    prefix: "ji:control-knobs"
+  "🎞":
+    body: "u'\\\\U0001F39E'"
+    prefix: "ji:film-frames"
+  "🎟":
+    body: "u'\\\\U0001F39F'"
+    prefix: "ji:admission-tickets"
+  "🎠":
+    body: "u'\\\\U0001F3A0'"
+    prefix: "ji:carousel-horse"
+  "🎡":
+    body: "u'\\\\U0001F3A1'"
+    prefix: "ji:ferris-wheel"
+  "🎢":
+    body: "u'\\\\U0001F3A2'"
+    prefix: "ji:roller-coaster"
+  "🎣":
+    body: "u'\\\\U0001F3A3'"
+    prefix: "ji:fishing-pole-and-fish"
+  "🎤":
+    body: "u'\\\\U0001F3A4'"
+    prefix: "ji:microphone"
+  "🎥":
+    body: "u'\\\\U0001F3A5'"
+    prefix: "ji:movie-camera"
+  "🎦":
+    body: "u'\\\\U0001F3A6'"
+    prefix: "ji:cinema"
+  "🎧":
+    body: "u'\\\\U0001F3A7'"
+    prefix: "ji:headphone"
+  "🎨":
+    body: "u'\\\\U0001F3A8'"
+    prefix: "ji:artist-palette"
+  "🎩":
+    body: "u'\\\\U0001F3A9'"
+    prefix: "ji:top-hat"
+  "🎪":
+    body: "u'\\\\U0001F3AA'"
+    prefix: "ji:circus-tent"
+  "🎫":
+    body: "u'\\\\U0001F3AB'"
+    prefix: "ji:ticket"
+  "🎬":
+    body: "u'\\\\U0001F3AC'"
+    prefix: "ji:clapper-board"
+  "🎭":
+    body: "u'\\\\U0001F3AD'"
+    prefix: "ji:performing-arts"
+  "🎮":
+    body: "u'\\\\U0001F3AE'"
+    prefix: "ji:video-game"
+  "🎯":
+    body: "u'\\\\U0001F3AF'"
+    prefix: "ji:direct-hit"
+  "🎰":
+    body: "u'\\\\U0001F3B0'"
+    prefix: "ji:slot-machine"
+  "🎱":
+    body: "u'\\\\U0001F3B1'"
+    prefix: "ji:billiards"
+  "🎲":
+    body: "u'\\\\U0001F3B2'"
+    prefix: "ji:game-die"
+  "🎳":
+    body: "u'\\\\U0001F3B3'"
+    prefix: "ji:bowling"
+  "🎴":
+    body: "u'\\\\U0001F3B4'"
+    prefix: "ji:flower-playing-cards"
+  "🎵":
+    body: "u'\\\\U0001F3B5'"
+    prefix: "ji:musical-note"
+  "🎶":
+    body: "u'\\\\U0001F3B6'"
+    prefix: "ji:multiple-musical-notes"
+  "🎷":
+    body: "u'\\\\U0001F3B7'"
+    prefix: "ji:saxophone"
+  "🎸":
+    body: "u'\\\\U0001F3B8'"
+    prefix: "ji:guitar"
+  "🎹":
+    body: "u'\\\\U0001F3B9'"
+    prefix: "ji:musical-keyboard"
+  "🎺":
+    body: "u'\\\\U0001F3BA'"
+    prefix: "ji:trumpet"
+  "🎻":
+    body: "u'\\\\U0001F3BB'"
+    prefix: "ji:violin"
+  "🎼":
+    body: "u'\\\\U0001F3BC'"
+    prefix: "ji:musical-score"
+  "🎽":
+    body: "u'\\\\U0001F3BD'"
+    prefix: "ji:running-shirt-with-sash"
+  "🎾":
+    body: "u'\\\\U0001F3BE'"
+    prefix: "ji:tennis-racquet-and-ball"
+  "🎿":
+    body: "u'\\\\U0001F3BF'"
+    prefix: "ji:ski-and-ski-boot"
+  "🏀":
+    body: "u'\\\\U0001F3C0'"
+    prefix: "ji:basketball-and-hoop"
+  "🏁":
+    body: "u'\\\\U0001F3C1'"
+    prefix: "ji:chequered-flag"
+  "🏂":
+    body: "u'\\\\U0001F3C2'"
+    prefix: "ji:snowboarder"
+  "🏃":
+    body: "u'\\\\U0001F3C3'"
+    prefix: "ji:runner"
+  "🏄":
+    body: "u'\\\\U0001F3C4'"
+    prefix: "ji:surfer"
+  "🏅":
+    body: "u'\\\\U0001F3C5'"
+    prefix: "ji:sports-medal"
+  "🏆":
+    body: "u'\\\\U0001F3C6'"
+    prefix: "ji:trophy"
+  "🏇":
+    body: "u'\\\\U0001F3C7'"
+    prefix: "ji:horse-racing"
+  "🏈":
+    body: "u'\\\\U0001F3C8'"
+    prefix: "ji:american-football"
+  "🏉":
+    body: "u'\\\\U0001F3C9'"
+    prefix: "ji:rugby-football"
+  "🏊":
+    body: "u'\\\\U0001F3CA'"
+    prefix: "ji:swimmer"
+  "🏋":
+    body: "u'\\\\U0001F3CB'"
+    prefix: "ji:weight-lifter"
+  "🏌":
+    body: "u'\\\\U0001F3CC'"
+    prefix: "ji:golfer"
+  "🏍":
+    body: "u'\\\\U0001F3CD'"
+    prefix: "ji:racing-motorcycle"
+  "🏎":
+    body: "u'\\\\U0001F3CE'"
+    prefix: "ji:racing-car"
+  "🏏":
+    body: "u'\\\\U0001F3CF'"
+    prefix: "ji:cricket-bat-and-ball"
+  "🏐":
+    body: "u'\\\\U0001F3D0'"
+    prefix: "ji:volleyball"
+  "🏑":
+    body: "u'\\\\U0001F3D1'"
+    prefix: "ji:field-hockey-stick-and-ball"
+  "🏒":
+    body: "u'\\\\U0001F3D2'"
+    prefix: "ji:ice-hockey-stick-and-puck"
+  "🏓":
+    body: "u'\\\\U0001F3D3'"
+    prefix: "ji:table-tennis-paddle-and-ball"
+  "🏔":
+    body: "u'\\\\U0001F3D4'"
+    prefix: "ji:snow-capped-mountain"
+  "🏕":
+    body: "u'\\\\U0001F3D5'"
+    prefix: "ji:camping"
+  "🏖":
+    body: "u'\\\\U0001F3D6'"
+    prefix: "ji:beach-with-umbrella"
+  "🏗":
+    body: "u'\\\\U0001F3D7'"
+    prefix: "ji:building-construction"
+  "🏘":
+    body: "u'\\\\U0001F3D8'"
+    prefix: "ji:house-buildings"
+  "🏙":
+    body: "u'\\\\U0001F3D9'"
+    prefix: "ji:cityscape"
+  "🏚":
+    body: "u'\\\\U0001F3DA'"
+    prefix: "ji:derelict-house-building"
+  "🏛":
+    body: "u'\\\\U0001F3DB'"
+    prefix: "ji:classical-building"
+  "🏜":
+    body: "u'\\\\U0001F3DC'"
+    prefix: "ji:desert"
+  "🏝":
+    body: "u'\\\\U0001F3DD'"
+    prefix: "ji:desert-island"
+  "🏞":
+    body: "u'\\\\U0001F3DE'"
+    prefix: "ji:national-park"
+  "🏟":
+    body: "u'\\\\U0001F3DF'"
+    prefix: "ji:stadium"
+  "🏠":
+    body: "u'\\\\U0001F3E0'"
+    prefix: "ji:house-building"
+  "🏡":
+    body: "u'\\\\U0001F3E1'"
+    prefix: "ji:house-with-garden"
+  "🏢":
+    body: "u'\\\\U0001F3E2'"
+    prefix: "ji:office-building"
+  "🏣":
+    body: "u'\\\\U0001F3E3'"
+    prefix: "ji:japanese-post-office"
+  "🏤":
+    body: "u'\\\\U0001F3E4'"
+    prefix: "ji:european-post-office"
+  "🏥":
+    body: "u'\\\\U0001F3E5'"
+    prefix: "ji:hospital"
+  "🏦":
+    body: "u'\\\\U0001F3E6'"
+    prefix: "ji:bank"
+  "🏧":
+    body: "u'\\\\U0001F3E7'"
+    prefix: "ji:automated-teller-machine"
+  "🏨":
+    body: "u'\\\\U0001F3E8'"
+    prefix: "ji:hotel"
+  "🏩":
+    body: "u'\\\\U0001F3E9'"
+    prefix: "ji:love-hotel"
+  "🏪":
+    body: "u'\\\\U0001F3EA'"
+    prefix: "ji:convenience-store"
+  "🏫":
+    body: "u'\\\\U0001F3EB'"
+    prefix: "ji:school"
+  "🏬":
+    body: "u'\\\\U0001F3EC'"
+    prefix: "ji:department-store"
+  "🏭":
+    body: "u'\\\\U0001F3ED'"
+    prefix: "ji:factory"
+  "🏮":
+    body: "u'\\\\U0001F3EE'"
+    prefix: "ji:izakaya-lantern"
+  "🏯":
+    body: "u'\\\\U0001F3EF'"
+    prefix: "ji:japanese-castle"
+  "🏰":
+    body: "u'\\\\U0001F3F0'"
+    prefix: "ji:european-castle"
+  "🏳":
+    body: "u'\\\\U0001F3F3'"
+    prefix: "ji:waving-white-flag"
+  "🏴":
+    body: "u'\\\\U0001F3F4'"
+    prefix: "ji:waving-black-flag"
+  "🏵":
+    body: "u'\\\\U0001F3F5'"
+    prefix: "ji:rosette"
+  "🏷":
+    body: "u'\\\\U0001F3F7'"
+    prefix: "ji:label"
+  "🏸":
+    body: "u'\\\\U0001F3F8'"
+    prefix: "ji:badminton-racquet-and-shuttlecock"
+  "🏹":
+    body: "u'\\\\U0001F3F9'"
+    prefix: "ji:bow-and-arrow"
+  "🏺":
+    body: "u'\\\\U0001F3FA'"
+    prefix: "ji:amphora"
+  "🏻":
+    body: "u'\\\\U0001F3FB'"
+    prefix: "ji:emoji-modifier-fitzpatrick-type-1-2"
+  "🏼":
+    body: "u'\\\\U0001F3FC'"
+    prefix: "ji:emoji-modifier-fitzpatrick-type-3"
+  "🏽":
+    body: "u'\\\\U0001F3FD'"
+    prefix: "ji:emoji-modifier-fitzpatrick-type-4"
+  "🏾":
+    body: "u'\\\\U0001F3FE'"
+    prefix: "ji:emoji-modifier-fitzpatrick-type-5"
+  "🏿":
+    body: "u'\\\\U0001F3FF'"
+    prefix: "ji:emoji-modifier-fitzpatrick-type-6"
+  "🐀":
+    body: "u'\\\\U0001F400'"
+    prefix: "ji:rat"
+  "🐁":
+    body: "u'\\\\U0001F401'"
+    prefix: "ji:mouse"
+  "🐂":
+    body: "u'\\\\U0001F402'"
+    prefix: "ji:ox"
+  "🐃":
+    body: "u'\\\\U0001F403'"
+    prefix: "ji:water-buffalo"
+  "🐄":
+    body: "u'\\\\U0001F404'"
+    prefix: "ji:cow"
+  "🐅":
+    body: "u'\\\\U0001F405'"
+    prefix: "ji:tiger"
+  "🐆":
+    body: "u'\\\\U0001F406'"
+    prefix: "ji:leopard"
+  "🐇":
+    body: "u'\\\\U0001F407'"
+    prefix: "ji:rabbit"
+  "🐈":
+    body: "u'\\\\U0001F408'"
+    prefix: "ji:cat"
+  "🐉":
+    body: "u'\\\\U0001F409'"
+    prefix: "ji:dragon"
+  "🐊":
+    body: "u'\\\\U0001F40A'"
+    prefix: "ji:crocodile"
+  "🐋":
+    body: "u'\\\\U0001F40B'"
+    prefix: "ji:whale"
+  "🐌":
+    body: "u'\\\\U0001F40C'"
+    prefix: "ji:snail"
+  "🐍":
+    body: "u'\\\\U0001F40D'"
+    prefix: "ji:snake"
+  "🐎":
+    body: "u'\\\\U0001F40E'"
+    prefix: "ji:horse"
+  "🐏":
+    body: "u'\\\\U0001F40F'"
+    prefix: "ji:ram"
+  "🐐":
+    body: "u'\\\\U0001F410'"
+    prefix: "ji:goat"
+  "🐑":
+    body: "u'\\\\U0001F411'"
+    prefix: "ji:sheep"
+  "🐒":
+    body: "u'\\\\U0001F412'"
+    prefix: "ji:monkey"
+  "🐓":
+    body: "u'\\\\U0001F413'"
+    prefix: "ji:rooster"
+  "🐔":
+    body: "u'\\\\U0001F414'"
+    prefix: "ji:chicken"
+  "🐕":
+    body: "u'\\\\U0001F415'"
+    prefix: "ji:dog"
+  "🐖":
+    body: "u'\\\\U0001F416'"
+    prefix: "ji:pig"
+  "🐗":
+    body: "u'\\\\U0001F417'"
+    prefix: "ji:boar"
+  "🐘":
+    body: "u'\\\\U0001F418'"
+    prefix: "ji:elephant"
+  "🐙":
+    body: "u'\\\\U0001F419'"
+    prefix: "ji:octopus"
+  "🐚":
+    body: "u'\\\\U0001F41A'"
+    prefix: "ji:spiral-shell"
+  "🐛":
+    body: "u'\\\\U0001F41B'"
+    prefix: "ji:bug"
+  "🐜":
+    body: "u'\\\\U0001F41C'"
+    prefix: "ji:ant"
+  "🐝":
+    body: "u'\\\\U0001F41D'"
+    prefix: "ji:honeybee"
+  "🐞":
+    body: "u'\\\\U0001F41E'"
+    prefix: "ji:lady-beetle"
+  "🐟":
+    body: "u'\\\\U0001F41F'"
+    prefix: "ji:fish"
+  "🐠":
+    body: "u'\\\\U0001F420'"
+    prefix: "ji:tropical-fish"
+  "🐡":
+    body: "u'\\\\U0001F421'"
+    prefix: "ji:blowfish"
+  "🐢":
+    body: "u'\\\\U0001F422'"
+    prefix: "ji:turtle"
+  "🐣":
+    body: "u'\\\\U0001F423'"
+    prefix: "ji:hatching-chick"
+  "🐤":
+    body: "u'\\\\U0001F424'"
+    prefix: "ji:baby-chick"
+  "🐥":
+    body: "u'\\\\U0001F425'"
+    prefix: "ji:front-facing-baby-chick"
+  "🐦":
+    body: "u'\\\\U0001F426'"
+    prefix: "ji:bird"
+  "🐧":
+    body: "u'\\\\U0001F427'"
+    prefix: "ji:penguin"
+  "🐨":
+    body: "u'\\\\U0001F428'"
+    prefix: "ji:koala"
+  "🐩":
+    body: "u'\\\\U0001F429'"
+    prefix: "ji:poodle"
+  "🐪":
+    body: "u'\\\\U0001F42A'"
+    prefix: "ji:dromedary-camel"
+  "🐫":
+    body: "u'\\\\U0001F42B'"
+    prefix: "ji:bactrian-camel"
+  "🐬":
+    body: "u'\\\\U0001F42C'"
+    prefix: "ji:dolphin"
+  "🐭":
+    body: "u'\\\\U0001F42D'"
+    prefix: "ji:mouse-face"
+  "🐮":
+    body: "u'\\\\U0001F42E'"
+    prefix: "ji:cow-face"
+  "🐯":
+    body: "u'\\\\U0001F42F'"
+    prefix: "ji:tiger-face"
+  "🐰":
+    body: "u'\\\\U0001F430'"
+    prefix: "ji:rabbit-face"
+  "🐱":
+    body: "u'\\\\U0001F431'"
+    prefix: "ji:cat-face"
+  "🐲":
+    body: "u'\\\\U0001F432'"
+    prefix: "ji:dragon-face"
+  "🐳":
+    body: "u'\\\\U0001F433'"
+    prefix: "ji:spouting-whale"
+  "🐴":
+    body: "u'\\\\U0001F434'"
+    prefix: "ji:horse-face"
+  "🐵":
+    body: "u'\\\\U0001F435'"
+    prefix: "ji:monkey-face"
+  "🐶":
+    body: "u'\\\\U0001F436'"
+    prefix: "ji:dog-face"
+  "🐷":
+    body: "u'\\\\U0001F437'"
+    prefix: "ji:pig-face"
+  "🐸":
+    body: "u'\\\\U0001F438'"
+    prefix: "ji:frog-face"
+  "🐹":
+    body: "u'\\\\U0001F439'"
+    prefix: "ji:hamster-face"
+  "🐺":
+    body: "u'\\\\U0001F43A'"
+    prefix: "ji:wolf-face"
+  "🐻":
+    body: "u'\\\\U0001F43B'"
+    prefix: "ji:bear-face"
+  "🐼":
+    body: "u'\\\\U0001F43C'"
+    prefix: "ji:panda-face"
+  "🐽":
+    body: "u'\\\\U0001F43D'"
+    prefix: "ji:pig-nose"
+  "🐾":
+    body: "u'\\\\U0001F43E'"
+    prefix: "ji:paw-prints"
+  "🐿":
+    body: "u'\\\\U0001F43F'"
+    prefix: "ji:chipmunk"
+  "👀":
+    body: "u'\\\\U0001F440'"
+    prefix: "ji:eyes"
+  "👁":
+    body: "u'\\\\U0001F441'"
+    prefix: "ji:eye"
+  "👂":
+    body: "u'\\\\U0001F442'"
+    prefix: "ji:ear"
+  "👃":
+    body: "u'\\\\U0001F443'"
+    prefix: "ji:nose"
+  "👄":
+    body: "u'\\\\U0001F444'"
+    prefix: "ji:mouth"
+  "👅":
+    body: "u'\\\\U0001F445'"
+    prefix: "ji:tongue"
+  "👆":
+    body: "u'\\\\U0001F446'"
+    prefix: "ji:white-up-pointing-backhand-index"
+  "👇":
+    body: "u'\\\\U0001F447'"
+    prefix: "ji:white-down-pointing-backhand-index"
+  "👈":
+    body: "u'\\\\U0001F448'"
+    prefix: "ji:white-left-pointing-backhand-index"
+  "👉":
+    body: "u'\\\\U0001F449'"
+    prefix: "ji:white-right-pointing-backhand-index"
+  "👊":
+    body: "u'\\\\U0001F44A'"
+    prefix: "ji:fisted-hand-sign"
+  "👋":
+    body: "u'\\\\U0001F44B'"
+    prefix: "ji:waving-hand-sign"
+  "👌":
+    body: "u'\\\\U0001F44C'"
+    prefix: "ji:ok-hand-sign"
+  "👍":
+    body: "u'\\\\U0001F44D'"
+    prefix: "ji:thumbs-up-sign"
+  "👎":
+    body: "u'\\\\U0001F44E'"
+    prefix: "ji:thumbs-down-sign"
+  "👏":
+    body: "u'\\\\U0001F44F'"
+    prefix: "ji:clapping-hands-sign"
+  "👐":
+    body: "u'\\\\U0001F450'"
+    prefix: "ji:open-hands-sign"
+  "👑":
+    body: "u'\\\\U0001F451'"
+    prefix: "ji:crown"
+  "👒":
+    body: "u'\\\\U0001F452'"
+    prefix: "ji:womans-hat"
+  "👓":
+    body: "u'\\\\U0001F453'"
+    prefix: "ji:eyeglasses"
+  "👔":
+    body: "u'\\\\U0001F454'"
+    prefix: "ji:necktie"
+  "👕":
+    body: "u'\\\\U0001F455'"
+    prefix: "ji:t-shirt"
+  "👖":
+    body: "u'\\\\U0001F456'"
+    prefix: "ji:jeans"
+  "👗":
+    body: "u'\\\\U0001F457'"
+    prefix: "ji:dress"
+  "👘":
+    body: "u'\\\\U0001F458'"
+    prefix: "ji:kimono"
+  "👙":
+    body: "u'\\\\U0001F459'"
+    prefix: "ji:bikini"
+  "👚":
+    body: "u'\\\\U0001F45A'"
+    prefix: "ji:womans-clothes"
+  "👛":
+    body: "u'\\\\U0001F45B'"
+    prefix: "ji:purse"
+  "👜":
+    body: "u'\\\\U0001F45C'"
+    prefix: "ji:handbag"
+  "👝":
+    body: "u'\\\\U0001F45D'"
+    prefix: "ji:pouch"
+  "👞":
+    body: "u'\\\\U0001F45E'"
+    prefix: "ji:mans-shoe"
+  "👟":
+    body: "u'\\\\U0001F45F'"
+    prefix: "ji:athletic-shoe"
+  "👠":
+    body: "u'\\\\U0001F460'"
+    prefix: "ji:high-heeled-shoe"
+  "👡":
+    body: "u'\\\\U0001F461'"
+    prefix: "ji:womans-sandal"
+  "👢":
+    body: "u'\\\\U0001F462'"
+    prefix: "ji:womans-boots"
+  "👣":
+    body: "u'\\\\U0001F463'"
+    prefix: "ji:footprints"
+  "👤":
+    body: "u'\\\\U0001F464'"
+    prefix: "ji:bust-in-silhouette"
+  "👥":
+    body: "u'\\\\U0001F465'"
+    prefix: "ji:busts-in-silhouette"
+  "👦":
+    body: "u'\\\\U0001F466'"
+    prefix: "ji:boy"
+  "👧":
+    body: "u'\\\\U0001F467'"
+    prefix: "ji:girl"
+  "👨":
+    body: "u'\\\\U0001F468'"
+    prefix: "ji:man"
+  "👩":
+    body: "u'\\\\U0001F469'"
+    prefix: "ji:woman"
+  "👨‍👩‍👦":
+    body: "u'\\\\U0001F46A'"
+    prefix: "ji:family"
+  "👫":
+    body: "u'\\\\U0001F46B'"
+    prefix: "ji:man-and-woman-holding-hands"
+  "👬":
+    body: "u'\\\\U0001F46C'"
+    prefix: "ji:two-men-holding-hands"
+  "👭":
+    body: "u'\\\\U0001F46D'"
+    prefix: "ji:two-women-holding-hands"
+  "👮":
+    body: "u'\\\\U0001F46E'"
+    prefix: "ji:police-officer"
+  "👯":
+    body: "u'\\\\U0001F46F'"
+    prefix: "ji:woman-with-bunny-ears"
+  "👰":
+    body: "u'\\\\U0001F470'"
+    prefix: "ji:bride-with-veil"
+  "👱":
+    body: "u'\\\\U0001F471'"
+    prefix: "ji:person-with-blond-hair"
+  "👲":
+    body: "u'\\\\U0001F472'"
+    prefix: "ji:man-with-gua-pi-mao"
+  "👳":
+    body: "u'\\\\U0001F473'"
+    prefix: "ji:man-with-turban"
+  "👴":
+    body: "u'\\\\U0001F474'"
+    prefix: "ji:older-man"
+  "👵":
+    body: "u'\\\\U0001F475'"
+    prefix: "ji:older-woman"
+  "👶":
+    body: "u'\\\\U0001F476'"
+    prefix: "ji:baby"
+  "👷":
+    body: "u'\\\\U0001F477'"
+    prefix: "ji:construction-worker"
+  "👸":
+    body: "u'\\\\U0001F478'"
+    prefix: "ji:princess"
+  "👹":
+    body: "u'\\\\U0001F479'"
+    prefix: "ji:japanese-ogre"
+  "👺":
+    body: "u'\\\\U0001F47A'"
+    prefix: "ji:japanese-goblin"
+  "👻":
+    body: "u'\\\\U0001F47B'"
+    prefix: "ji:ghost"
+  "👼":
+    body: "u'\\\\U0001F47C'"
+    prefix: "ji:baby-angel"
+  "👽":
+    body: "u'\\\\U0001F47D'"
+    prefix: "ji:extraterrestrial-alien"
+  "👾":
+    body: "u'\\\\U0001F47E'"
+    prefix: "ji:alien-monster"
+  "👿":
+    body: "u'\\\\U0001F47F'"
+    prefix: "ji:imp"
+  "💀":
+    body: "u'\\\\U0001F480'"
+    prefix: "ji:skull"
+  "💁":
+    body: "u'\\\\U0001F481'"
+    prefix: "ji:information-desk-person"
+  "💂":
+    body: "u'\\\\U0001F482'"
+    prefix: "ji:guardsman"
+  "💃":
+    body: "u'\\\\U0001F483'"
+    prefix: "ji:dancer"
+  "💄":
+    body: "u'\\\\U0001F484'"
+    prefix: "ji:lipstick"
+  "💅":
+    body: "u'\\\\U0001F485'"
+    prefix: "ji:nail-polish"
+  "💆":
+    body: "u'\\\\U0001F486'"
+    prefix: "ji:face-massage"
+  "💇":
+    body: "u'\\\\U0001F487'"
+    prefix: "ji:haircut"
+  "💈":
+    body: "u'\\\\U0001F488'"
+    prefix: "ji:barber-pole"
+  "💉":
+    body: "u'\\\\U0001F489'"
+    prefix: "ji:syringe"
+  "💊":
+    body: "u'\\\\U0001F48A'"
+    prefix: "ji:pill"
+  "💋":
+    body: "u'\\\\U0001F48B'"
+    prefix: "ji:kiss-mark"
+  "💌":
+    body: "u'\\\\U0001F48C'"
+    prefix: "ji:love-letter"
+  "💍":
+    body: "u'\\\\U0001F48D'"
+    prefix: "ji:ring"
+  "💎":
+    body: "u'\\\\U0001F48E'"
+    prefix: "ji:gem-stone"
+  "💏":
+    body: "u'\\\\U0001F48F'"
+    prefix: "ji:kiss"
+  "💐":
+    body: "u'\\\\U0001F490'"
+    prefix: "ji:bouquet"
+  "💑":
+    body: "u'\\\\U0001F491'"
+    prefix: "ji:couple-with-heart"
+  "💒":
+    body: "u'\\\\U0001F492'"
+    prefix: "ji:wedding"
+  "💓":
+    body: "u'\\\\U0001F493'"
+    prefix: "ji:beating-heart"
+  "💔":
+    body: "u'\\\\U0001F494'"
+    prefix: "ji:broken-heart"
+  "💕":
+    body: "u'\\\\U0001F495'"
+    prefix: "ji:two-hearts"
+  "💖":
+    body: "u'\\\\U0001F496'"
+    prefix: "ji:sparkling-heart"
+  "💗":
+    body: "u'\\\\U0001F497'"
+    prefix: "ji:growing-heart"
+  "💘":
+    body: "u'\\\\U0001F498'"
+    prefix: "ji:heart-with-arrow"
+  "💙":
+    body: "u'\\\\U0001F499'"
+    prefix: "ji:blue-heart"
+  "💚":
+    body: "u'\\\\U0001F49A'"
+    prefix: "ji:green-heart"
+  "💛":
+    body: "u'\\\\U0001F49B'"
+    prefix: "ji:yellow-heart"
+  "💜":
+    body: "u'\\\\U0001F49C'"
+    prefix: "ji:purple-heart"
+  "💝":
+    body: "u'\\\\U0001F49D'"
+    prefix: "ji:heart-with-ribbon"
+  "💞":
+    body: "u'\\\\U0001F49E'"
+    prefix: "ji:revolving-hearts"
+  "💟":
+    body: "u'\\\\U0001F49F'"
+    prefix: "ji:heart-decoration"
+  "💠":
+    body: "u'\\\\U0001F4A0'"
+    prefix: "ji:diamond-shape-with-a-dot-inside"
+  "💡":
+    body: "u'\\\\U0001F4A1'"
+    prefix: "ji:electric-light-bulb"
+  "💢":
+    body: "u'\\\\U0001F4A2'"
+    prefix: "ji:anger-symbol"
+  "💣":
+    body: "u'\\\\U0001F4A3'"
+    prefix: "ji:bomb"
+  "💤":
+    body: "u'\\\\U0001F4A4'"
+    prefix: "ji:sleeping-symbol"
+  "💥":
+    body: "u'\\\\U0001F4A5'"
+    prefix: "ji:collision-symbol"
+  "💦":
+    body: "u'\\\\U0001F4A6'"
+    prefix: "ji:splashing-sweat-symbol"
+  "💧":
+    body: "u'\\\\U0001F4A7'"
+    prefix: "ji:droplet"
+  "💨":
+    body: "u'\\\\U0001F4A8'"
+    prefix: "ji:dash-symbol"
+  "💩":
+    body: "u'\\\\U0001F4A9'"
+    prefix: "ji:pile-of-poo"
+  "💪":
+    body: "u'\\\\U0001F4AA'"
+    prefix: "ji:flexed-biceps"
+  "💫":
+    body: "u'\\\\U0001F4AB'"
+    prefix: "ji:dizzy-symbol"
+  "💬":
+    body: "u'\\\\U0001F4AC'"
+    prefix: "ji:speech-balloon"
+  "💭":
+    body: "u'\\\\U0001F4AD'"
+    prefix: "ji:thought-balloon"
+  "💮":
+    body: "u'\\\\U0001F4AE'"
+    prefix: "ji:white-flower"
+  "💯":
+    body: "u'\\\\U0001F4AF'"
+    prefix: "ji:hundred-points-symbol"
+  "💰":
+    body: "u'\\\\U0001F4B0'"
+    prefix: "ji:money-bag"
+  "💱":
+    body: "u'\\\\U0001F4B1'"
+    prefix: "ji:currency-exchange"
+  "💲":
+    body: "u'\\\\U0001F4B2'"
+    prefix: "ji:heavy-dollar-sign"
+  "💳":
+    body: "u'\\\\U0001F4B3'"
+    prefix: "ji:credit-card"
+  "💴":
+    body: "u'\\\\U0001F4B4'"
+    prefix: "ji:banknote-with-yen-sign"
+  "💵":
+    body: "u'\\\\U0001F4B5'"
+    prefix: "ji:banknote-with-dollar-sign"
+  "💶":
+    body: "u'\\\\U0001F4B6'"
+    prefix: "ji:banknote-with-euro-sign"
+  "💷":
+    body: "u'\\\\U0001F4B7'"
+    prefix: "ji:banknote-with-pound-sign"
+  "💸":
+    body: "u'\\\\U0001F4B8'"
+    prefix: "ji:money-with-wings"
+  "💹":
+    body: "u'\\\\U0001F4B9'"
+    prefix: "ji:chart-with-upwards-trend-and-yen-sign"
+  "💺":
+    body: "u'\\\\U0001F4BA'"
+    prefix: "ji:seat"
+  "💻":
+    body: "u'\\\\U0001F4BB'"
+    prefix: "ji:personal-computer"
+  "💼":
+    body: "u'\\\\U0001F4BC'"
+    prefix: "ji:briefcase"
+  "💽":
+    body: "u'\\\\U0001F4BD'"
+    prefix: "ji:minidisc"
+  "💾":
+    body: "u'\\\\U0001F4BE'"
+    prefix: "ji:floppy-disk"
+  "💿":
+    body: "u'\\\\U0001F4BF'"
+    prefix: "ji:optical-disc"
+  "📀":
+    body: "u'\\\\U0001F4C0'"
+    prefix: "ji:dvd"
+  "📁":
+    body: "u'\\\\U0001F4C1'"
+    prefix: "ji:file-folder"
+  "📂":
+    body: "u'\\\\U0001F4C2'"
+    prefix: "ji:open-file-folder"
+  "📃":
+    body: "u'\\\\U0001F4C3'"
+    prefix: "ji:page-with-curl"
+  "📄":
+    body: "u'\\\\U0001F4C4'"
+    prefix: "ji:page-facing-up"
+  "📅":
+    body: "u'\\\\U0001F4C5'"
+    prefix: "ji:calendar"
+  "📆":
+    body: "u'\\\\U0001F4C6'"
+    prefix: "ji:tear-off-calendar"
+  "📇":
+    body: "u'\\\\U0001F4C7'"
+    prefix: "ji:card-index"
+  "📈":
+    body: "u'\\\\U0001F4C8'"
+    prefix: "ji:chart-with-upwards-trend"
+  "📉":
+    body: "u'\\\\U0001F4C9'"
+    prefix: "ji:chart-with-downwards-trend"
+  "📊":
+    body: "u'\\\\U0001F4CA'"
+    prefix: "ji:bar-chart"
+  "📋":
+    body: "u'\\\\U0001F4CB'"
+    prefix: "ji:clipboard"
+  "📌":
+    body: "u'\\\\U0001F4CC'"
+    prefix: "ji:pushpin"
+  "📍":
+    body: "u'\\\\U0001F4CD'"
+    prefix: "ji:round-pushpin"
+  "📎":
+    body: "u'\\\\U0001F4CE'"
+    prefix: "ji:paperclip"
+  "📏":
+    body: "u'\\\\U0001F4CF'"
+    prefix: "ji:straight-ruler"
+  "📐":
+    body: "u'\\\\U0001F4D0'"
+    prefix: "ji:triangular-ruler"
+  "📑":
+    body: "u'\\\\U0001F4D1'"
+    prefix: "ji:bookmark-tabs"
+  "📒":
+    body: "u'\\\\U0001F4D2'"
+    prefix: "ji:ledger"
+  "📓":
+    body: "u'\\\\U0001F4D3'"
+    prefix: "ji:notebook"
+  "📔":
+    body: "u'\\\\U0001F4D4'"
+    prefix: "ji:notebook-with-decorative-cover"
+  "📕":
+    body: "u'\\\\U0001F4D5'"
+    prefix: "ji:closed-book"
+  "📖":
+    body: "u'\\\\U0001F4D6'"
+    prefix: "ji:open-book"
+  "📗":
+    body: "u'\\\\U0001F4D7'"
+    prefix: "ji:green-book"
+  "📘":
+    body: "u'\\\\U0001F4D8'"
+    prefix: "ji:blue-book"
+  "📙":
+    body: "u'\\\\U0001F4D9'"
+    prefix: "ji:orange-book"
+  "📚":
+    body: "u'\\\\U0001F4DA'"
+    prefix: "ji:books"
+  "📛":
+    body: "u'\\\\U0001F4DB'"
+    prefix: "ji:name-badge"
+  "📜":
+    body: "u'\\\\U0001F4DC'"
+    prefix: "ji:scroll"
+  "📝":
+    body: "u'\\\\U0001F4DD'"
+    prefix: "ji:memo"
+  "📞":
+    body: "u'\\\\U0001F4DE'"
+    prefix: "ji:telephone-receiver"
+  "📟":
+    body: "u'\\\\U0001F4DF'"
+    prefix: "ji:pager"
+  "📠":
+    body: "u'\\\\U0001F4E0'"
+    prefix: "ji:fax-machine"
+  "📡":
+    body: "u'\\\\U0001F4E1'"
+    prefix: "ji:satellite-antenna"
+  "📢":
+    body: "u'\\\\U0001F4E2'"
+    prefix: "ji:public-address-loudspeaker"
+  "📣":
+    body: "u'\\\\U0001F4E3'"
+    prefix: "ji:cheering-megaphone"
+  "📤":
+    body: "u'\\\\U0001F4E4'"
+    prefix: "ji:outbox-tray"
+  "📥":
+    body: "u'\\\\U0001F4E5'"
+    prefix: "ji:inbox-tray"
+  "📦":
+    body: "u'\\\\U0001F4E6'"
+    prefix: "ji:package"
+  "📧":
+    body: "u'\\\\U0001F4E7'"
+    prefix: "ji:e-mail-symbol"
+  "📨":
+    body: "u'\\\\U0001F4E8'"
+    prefix: "ji:incoming-envelope"
+  "📩":
+    body: "u'\\\\U0001F4E9'"
+    prefix: "ji:envelope-with-downwards-arrow-above"
+  "📪":
+    body: "u'\\\\U0001F4EA'"
+    prefix: "ji:closed-mailbox-with-lowered-flag"
+  "📫":
+    body: "u'\\\\U0001F4EB'"
+    prefix: "ji:closed-mailbox-with-raised-flag"
+  "📬":
+    body: "u'\\\\U0001F4EC'"
+    prefix: "ji:open-mailbox-with-raised-flag"
+  "📭":
+    body: "u'\\\\U0001F4ED'"
+    prefix: "ji:open-mailbox-with-lowered-flag"
+  "📮":
+    body: "u'\\\\U0001F4EE'"
+    prefix: "ji:postbox"
+  "📯":
+    body: "u'\\\\U0001F4EF'"
+    prefix: "ji:postal-horn"
+  "📰":
+    body: "u'\\\\U0001F4F0'"
+    prefix: "ji:newspaper"
+  "📱":
+    body: "u'\\\\U0001F4F1'"
+    prefix: "ji:mobile-phone"
+  "📲":
+    body: "u'\\\\U0001F4F2'"
+    prefix: "ji:mobile-phone-with-rightwards-arrow-at-left"
+  "📳":
+    body: "u'\\\\U0001F4F3'"
+    prefix: "ji:vibration-mode"
+  "📴":
+    body: "u'\\\\U0001F4F4'"
+    prefix: "ji:mobile-phone-off"
+  "📵":
+    body: "u'\\\\U0001F4F5'"
+    prefix: "ji:no-mobile-phones"
+  "📶":
+    body: "u'\\\\U0001F4F6'"
+    prefix: "ji:antenna-with-bars"
+  "📷":
+    body: "u'\\\\U0001F4F7'"
+    prefix: "ji:camera"
+  "📸":
+    body: "u'\\\\U0001F4F8'"
+    prefix: "ji:camera-with-flash"
+  "📹":
+    body: "u'\\\\U0001F4F9'"
+    prefix: "ji:video-camera"
+  "📺":
+    body: "u'\\\\U0001F4FA'"
+    prefix: "ji:television"
+  "📻":
+    body: "u'\\\\U0001F4FB'"
+    prefix: "ji:radio"
+  "📼":
+    body: "u'\\\\U0001F4FC'"
+    prefix: "ji:videocassette"
+  "📽":
+    body: "u'\\\\U0001F4FD'"
+    prefix: "ji:film-projector"
+  "📿":
+    body: "u'\\\\U0001F4FF'"
+    prefix: "ji:prayer-beads"
+  "🔀":
+    body: "u'\\\\U0001F500'"
+    prefix: "ji:twisted-rightwards-arrows"
+  "🔁":
+    body: "u'\\\\U0001F501'"
+    prefix: "ji:clockwise-rightwards-and-leftwards-open-circle-arrows"
+  "🔂":
+    body: "u'\\\\U0001F502'"
+    prefix: "ji:clockwise-rightwards-and-leftwards-open-circle-arrows-with-circled-one-overlay"
+  "🔃":
+    body: "u'\\\\U0001F503'"
+    prefix: "ji:clockwise-downwards-and-upwards-open-circle-arrows"
+  "🔄":
+    body: "u'\\\\U0001F504'"
+    prefix: "ji:anticlockwise-downwards-and-upwards-open-circle-arrows"
+  "🔅":
+    body: "u'\\\\U0001F505'"
+    prefix: "ji:low-brightness-symbol"
+  "🔆":
+    body: "u'\\\\U0001F506'"
+    prefix: "ji:high-brightness-symbol"
+  "🔇":
+    body: "u'\\\\U0001F507'"
+    prefix: "ji:speaker-with-cancellation-stroke"
+  "🔈":
+    body: "u'\\\\U0001F508'"
+    prefix: "ji:speaker"
+  "🔉":
+    body: "u'\\\\U0001F509'"
+    prefix: "ji:speaker-with-one-sound-wave"
+  "🔊":
+    body: "u'\\\\U0001F50A'"
+    prefix: "ji:speaker-with-three-sound-waves"
+  "🔋":
+    body: "u'\\\\U0001F50B'"
+    prefix: "ji:battery"
+  "🔌":
+    body: "u'\\\\U0001F50C'"
+    prefix: "ji:electric-plug"
+  "🔍":
+    body: "u'\\\\U0001F50D'"
+    prefix: "ji:left-pointing-magnifying-glass"
+  "🔎":
+    body: "u'\\\\U0001F50E'"
+    prefix: "ji:right-pointing-magnifying-glass"
+  "🔏":
+    body: "u'\\\\U0001F50F'"
+    prefix: "ji:lock-with-ink-pen"
+  "🔐":
+    body: "u'\\\\U0001F510'"
+    prefix: "ji:closed-lock-with-key"
+  "🔑":
+    body: "u'\\\\U0001F511'"
+    prefix: "ji:key"
+  "🔒":
+    body: "u'\\\\U0001F512'"
+    prefix: "ji:lock"
+  "🔓":
+    body: "u'\\\\U0001F513'"
+    prefix: "ji:open-lock"
+  "🔔":
+    body: "u'\\\\U0001F514'"
+    prefix: "ji:bell"
+  "🔕":
+    body: "u'\\\\U0001F515'"
+    prefix: "ji:bell-with-cancellation-stroke"
+  "🔖":
+    body: "u'\\\\U0001F516'"
+    prefix: "ji:bookmark"
+  "🔗":
+    body: "u'\\\\U0001F517'"
+    prefix: "ji:link-symbol"
+  "🔘":
+    body: "u'\\\\U0001F518'"
+    prefix: "ji:radio-button"
+  "🔙":
+    body: "u'\\\\U0001F519'"
+    prefix: "ji:back-with-leftwards-arrow-above"
+  "🔚":
+    body: "u'\\\\U0001F51A'"
+    prefix: "ji:end-with-leftwards-arrow-above"
+  "🔛":
+    body: "u'\\\\U0001F51B'"
+    prefix: "ji:on-with-exclamation-mark-with-left-right-arrow-above"
+  "🔜":
+    body: "u'\\\\U0001F51C'"
+    prefix: "ji:soon-with-rightwards-arrow-above"
+  "🔝":
+    body: "u'\\\\U0001F51D'"
+    prefix: "ji:top-with-upwards-arrow-above"
+  "🔞":
+    body: "u'\\\\U0001F51E'"
+    prefix: "ji:no-one-under-eighteen-symbol"
+  "🔟":
+    body: "u'\\\\U0001F51F'"
+    prefix: "ji:keycap-ten"
+  "🔠":
+    body: "u'\\\\U0001F520'"
+    prefix: "ji:input-symbol-for-latin-capital-letters"
+  "🔡":
+    body: "u'\\\\U0001F521'"
+    prefix: "ji:input-symbol-for-latin-small-letters"
+  "🔢":
+    body: "u'\\\\U0001F522'"
+    prefix: "ji:input-symbol-for-numbers"
+  "🔣":
+    body: "u'\\\\U0001F523'"
+    prefix: "ji:input-symbol-for-symbols"
+  "🔤":
+    body: "u'\\\\U0001F524'"
+    prefix: "ji:input-symbol-for-latin-letters"
+  "🔥":
+    body: "u'\\\\U0001F525'"
+    prefix: "ji:fire"
+  "🔦":
+    body: "u'\\\\U0001F526'"
+    prefix: "ji:electric-torch"
+  "🔧":
+    body: "u'\\\\U0001F527'"
+    prefix: "ji:wrench"
+  "🔨":
+    body: "u'\\\\U0001F528'"
+    prefix: "ji:hammer"
+  "🔩":
+    body: "u'\\\\U0001F529'"
+    prefix: "ji:nut-and-bolt"
+  "🔪":
+    body: "u'\\\\U0001F52A'"
+    prefix: "ji:hocho"
+  "🔫":
+    body: "u'\\\\U0001F52B'"
+    prefix: "ji:pistol"
+  "🔬":
+    body: "u'\\\\U0001F52C'"
+    prefix: "ji:microscope"
+  "🔭":
+    body: "u'\\\\U0001F52D'"
+    prefix: "ji:telescope"
+  "🔮":
+    body: "u'\\\\U0001F52E'"
+    prefix: "ji:crystal-ball"
+  "🔯":
+    body: "u'\\\\U0001F52F'"
+    prefix: "ji:six-pointed-star-with-middle-dot"
+  "🔰":
+    body: "u'\\\\U0001F530'"
+    prefix: "ji:japanese-symbol-for-beginner"
+  "🔱":
+    body: "u'\\\\U0001F531'"
+    prefix: "ji:trident-emblem"
+  "🔲":
+    body: "u'\\\\U0001F532'"
+    prefix: "ji:black-square-button"
+  "🔳":
+    body: "u'\\\\U0001F533'"
+    prefix: "ji:white-square-button"
+  "🔴":
+    body: "u'\\\\U0001F534'"
+    prefix: "ji:large-red-circle"
+  "🔵":
+    body: "u'\\\\U0001F535'"
+    prefix: "ji:large-blue-circle"
+  "🔶":
+    body: "u'\\\\U0001F536'"
+    prefix: "ji:large-orange-diamond"
+  "🔷":
+    body: "u'\\\\U0001F537'"
+    prefix: "ji:large-blue-diamond"
+  "🔸":
+    body: "u'\\\\U0001F538'"
+    prefix: "ji:small-orange-diamond"
+  "🔹":
+    body: "u'\\\\U0001F539'"
+    prefix: "ji:small-blue-diamond"
+  "🔺":
+    body: "u'\\\\U0001F53A'"
+    prefix: "ji:up-pointing-red-triangle"
+  "🔻":
+    body: "u'\\\\U0001F53B'"
+    prefix: "ji:down-pointing-red-triangle"
+  "🔼":
+    body: "u'\\\\U0001F53C'"
+    prefix: "ji:up-pointing-small-red-triangle"
+  "🔽":
+    body: "u'\\\\U0001F53D'"
+    prefix: "ji:down-pointing-small-red-triangle"
+  "🕉":
+    body: "u'\\\\U0001F549'"
+    prefix: "ji:om-symbol"
+  "🕊":
+    body: "u'\\\\U0001F54A'"
+    prefix: "ji:dove-of-peace"
+  "🕋":
+    body: "u'\\\\U0001F54B'"
+    prefix: "ji:kaaba"
+  "🕌":
+    body: "u'\\\\U0001F54C'"
+    prefix: "ji:mosque"
+  "🕍":
+    body: "u'\\\\U0001F54D'"
+    prefix: "ji:synagogue"
+  "🕎":
+    body: "u'\\\\U0001F54E'"
+    prefix: "ji:menorah-with-nine-branches"
+  "🕐":
+    body: "u'\\\\U0001F550'"
+    prefix: "ji:clock-face-one-oclock"
+  "🕑":
+    body: "u'\\\\U0001F551'"
+    prefix: "ji:clock-face-two-oclock"
+  "🕒":
+    body: "u'\\\\U0001F552'"
+    prefix: "ji:clock-face-three-oclock"
+  "🕓":
+    body: "u'\\\\U0001F553'"
+    prefix: "ji:clock-face-four-oclock"
+  "🕔":
+    body: "u'\\\\U0001F554'"
+    prefix: "ji:clock-face-five-oclock"
+  "🕕":
+    body: "u'\\\\U0001F555'"
+    prefix: "ji:clock-face-six-oclock"
+  "🕖":
+    body: "u'\\\\U0001F556'"
+    prefix: "ji:clock-face-seven-oclock"
+  "🕗":
+    body: "u'\\\\U0001F557'"
+    prefix: "ji:clock-face-eight-oclock"
+  "🕘":
+    body: "u'\\\\U0001F558'"
+    prefix: "ji:clock-face-nine-oclock"
+  "🕙":
+    body: "u'\\\\U0001F559'"
+    prefix: "ji:clock-face-ten-oclock"
+  "🕚":
+    body: "u'\\\\U0001F55A'"
+    prefix: "ji:clock-face-eleven-oclock"
+  "🕛":
+    body: "u'\\\\U0001F55B'"
+    prefix: "ji:clock-face-twelve-oclock"
+  "🕜":
+    body: "u'\\\\U0001F55C'"
+    prefix: "ji:clock-face-one-thirty"
+  "🕝":
+    body: "u'\\\\U0001F55D'"
+    prefix: "ji:clock-face-two-thirty"
+  "🕞":
+    body: "u'\\\\U0001F55E'"
+    prefix: "ji:clock-face-three-thirty"
+  "🕟":
+    body: "u'\\\\U0001F55F'"
+    prefix: "ji:clock-face-four-thirty"
+  "🕠":
+    body: "u'\\\\U0001F560'"
+    prefix: "ji:clock-face-five-thirty"
+  "🕡":
+    body: "u'\\\\U0001F561'"
+    prefix: "ji:clock-face-six-thirty"
+  "🕢":
+    body: "u'\\\\U0001F562'"
+    prefix: "ji:clock-face-seven-thirty"
+  "🕣":
+    body: "u'\\\\U0001F563'"
+    prefix: "ji:clock-face-eight-thirty"
+  "🕤":
+    body: "u'\\\\U0001F564'"
+    prefix: "ji:clock-face-nine-thirty"
+  "🕥":
+    body: "u'\\\\U0001F565'"
+    prefix: "ji:clock-face-ten-thirty"
+  "🕦":
+    body: "u'\\\\U0001F566'"
+    prefix: "ji:clock-face-eleven-thirty"
+  "🕧":
+    body: "u'\\\\U0001F567'"
+    prefix: "ji:clock-face-twelve-thirty"
+  "🕯":
+    body: "u'\\\\U0001F56F'"
+    prefix: "ji:candle"
+  "🕰":
+    body: "u'\\\\U0001F570'"
+    prefix: "ji:mantelpiece-clock"
+  "🕳":
+    body: "u'\\\\U0001F573'"
+    prefix: "ji:hole"
+  "🕴":
+    body: "u'\\\\U0001F574'"
+    prefix: "ji:man-in-business-suit-levitating"
+  "🕵":
+    body: "u'\\\\U0001F575'"
+    prefix: "ji:sleuth-or-spy"
+  "🕶":
+    body: "u'\\\\U0001F576'"
+    prefix: "ji:dark-sunglasses"
+  "🕷":
+    body: "u'\\\\U0001F577'"
+    prefix: "ji:spider"
+  "🕸":
+    body: "u'\\\\U0001F578'"
+    prefix: "ji:spider-web"
+  "🕹":
+    body: "u'\\\\U0001F579'"
+    prefix: "ji:joystick"
+  "🖇":
+    body: "u'\\\\U0001F587'"
+    prefix: "ji:linked-paperclips"
+  "🖊":
+    body: "u'\\\\U0001F58A'"
+    prefix: "ji:lower-left-ballpoint-pen"
+  "🖋":
+    body: "u'\\\\U0001F58B'"
+    prefix: "ji:lower-left-fountain-pen"
+  "🖌":
+    body: "u'\\\\U0001F58C'"
+    prefix: "ji:lower-left-paintbrush"
+  "🖍":
+    body: "u'\\\\U0001F58D'"
+    prefix: "ji:lower-left-crayon"
+  "🖐":
+    body: "u'\\\\U0001F590'"
+    prefix: "ji:raised-hand-with-fingers-splayed"
+  "🖕":
+    body: "u'\\\\U0001F595'"
+    prefix: "ji:reversed-hand-with-middle-finger-extended"
+  "🖖":
+    body: "u'\\\\U0001F596'"
+    prefix: "ji:raised-hand-with-part-between-middle-and-ring-fingers"
+  "🖥":
+    body: "u'\\\\U0001F5A5'"
+    prefix: "ji:desktop-computer"
+  "🖨":
+    body: "u'\\\\U0001F5A8'"
+    prefix: "ji:printer"
+  "🖱":
+    body: "u'\\\\U0001F5B1'"
+    prefix: "ji:three-button-mouse"
+  "🖲":
+    body: "u'\\\\U0001F5B2'"
+    prefix: "ji:trackball"
+  "🖼":
+    body: "u'\\\\U0001F5BC'"
+    prefix: "ji:frame-with-picture"
+  "🗂":
+    body: "u'\\\\U0001F5C2'"
+    prefix: "ji:card-index-dividers"
+  "🗃":
+    body: "u'\\\\U0001F5C3'"
+    prefix: "ji:card-file-box"
+  "🗄":
+    body: "u'\\\\U0001F5C4'"
+    prefix: "ji:file-cabinet"
+  "🗑":
+    body: "u'\\\\U0001F5D1'"
+    prefix: "ji:wastebasket"
+  "🗒":
+    body: "u'\\\\U0001F5D2'"
+    prefix: "ji:spiral-note-pad"
+  "🗓":
+    body: "u'\\\\U0001F5D3'"
+    prefix: "ji:spiral-calendar-pad"
+  "🗜":
+    body: "u'\\\\U0001F5DC'"
+    prefix: "ji:compression"
+  "🗝":
+    body: "u'\\\\U0001F5DD'"
+    prefix: "ji:old-key"
+  "🗞":
+    body: "u'\\\\U0001F5DE'"
+    prefix: "ji:rolled-up-newspaper"
+  "🗡":
+    body: "u'\\\\U0001F5E1'"
+    prefix: "ji:dagger-knife"
+  "🗣":
+    body: "u'\\\\U0001F5E3'"
+    prefix: "ji:speaking-head-in-silhouette"
+  "🗨":
+    body: "u'\\\\U0001F5E8'"
+    prefix: "ji:left-speech-bubble"
+  "🗯":
+    body: "u'\\\\U0001F5EF'"
+    prefix: "ji:right-anger-bubble"
+  "🗳":
+    body: "u'\\\\U0001F5F3'"
+    prefix: "ji:ballot-box-with-ballot"
+  "🗺":
+    body: "u'\\\\U0001F5FA'"
+    prefix: "ji:world-map"
+  "🗻":
+    body: "u'\\\\U0001F5FB'"
+    prefix: "ji:mount-fuji"
+  "🗼":
+    body: "u'\\\\U0001F5FC'"
+    prefix: "ji:tokyo-tower"
+  "🗽":
+    body: "u'\\\\U0001F5FD'"
+    prefix: "ji:statue-of-liberty"
+  "🗾":
+    body: "u'\\\\U0001F5FE'"
+    prefix: "ji:silhouette-of-japan"
+  "🗿":
+    body: "u'\\\\U0001F5FF'"
+    prefix: "ji:moyai"
+  "😀":
+    body: "u'\\\\U0001F600'"
+    prefix: "ji:grinning-face"
+  "😁":
+    body: "u'\\\\U0001F601'"
+    prefix: "ji:grinning-face-with-smiling-eyes"
+  "😂":
+    body: "u'\\\\U0001F602'"
+    prefix: "ji:face-with-tears-of-joy"
+  "😃":
+    body: "u'\\\\U0001F603'"
+    prefix: "ji:smiling-face-with-open-mouth"
+  "😄":
+    body: "u'\\\\U0001F604'"
+    prefix: "ji:smiling-face-with-open-mouth-and-smiling-eyes"
+  "😅":
+    body: "u'\\\\U0001F605'"
+    prefix: "ji:smiling-face-with-open-mouth-and-cold-sweat"
+  "😆":
+    body: "u'\\\\U0001F606'"
+    prefix: "ji:smiling-face-with-open-mouth-and-tightly-closed-eyes"
+  "😇":
+    body: "u'\\\\U0001F607'"
+    prefix: "ji:smiling-face-with-halo"
+  "😈":
+    body: "u'\\\\U0001F608'"
+    prefix: "ji:smiling-face-with-horns"
+  "😉":
+    body: "u'\\\\U0001F609'"
+    prefix: "ji:winking-face"
+  "😊":
+    body: "u'\\\\U0001F60A'"
+    prefix: "ji:smiling-face-with-smiling-eyes"
+  "😋":
+    body: "u'\\\\U0001F60B'"
+    prefix: "ji:face-savouring-delicious-food"
+  "😌":
+    body: "u'\\\\U0001F60C'"
+    prefix: "ji:relieved-face"
+  "😍":
+    body: "u'\\\\U0001F60D'"
+    prefix: "ji:smiling-face-with-heart-shaped-eyes"
+  "😎":
+    body: "u'\\\\U0001F60E'"
+    prefix: "ji:smiling-face-with-sunglasses"
+  "😏":
+    body: "u'\\\\U0001F60F'"
+    prefix: "ji:smirking-face"
+  "😐":
+    body: "u'\\\\U0001F610'"
+    prefix: "ji:neutral-face"
+  "😑":
+    body: "u'\\\\U0001F611'"
+    prefix: "ji:expressionless-face"
+  "😒":
+    body: "u'\\\\U0001F612'"
+    prefix: "ji:unamused-face"
+  "😓":
+    body: "u'\\\\U0001F613'"
+    prefix: "ji:face-with-cold-sweat"
+  "😔":
+    body: "u'\\\\U0001F614'"
+    prefix: "ji:pensive-face"
+  "😕":
+    body: "u'\\\\U0001F615'"
+    prefix: "ji:confused-face"
+  "😖":
+    body: "u'\\\\U0001F616'"
+    prefix: "ji:confounded-face"
+  "😗":
+    body: "u'\\\\U0001F617'"
+    prefix: "ji:kissing-face"
+  "😘":
+    body: "u'\\\\U0001F618'"
+    prefix: "ji:face-throwing-a-kiss"
+  "😙":
+    body: "u'\\\\U0001F619'"
+    prefix: "ji:kissing-face-with-smiling-eyes"
+  "😚":
+    body: "u'\\\\U0001F61A'"
+    prefix: "ji:kissing-face-with-closed-eyes"
+  "😛":
+    body: "u'\\\\U0001F61B'"
+    prefix: "ji:face-with-stuck-out-tongue"
+  "😜":
+    body: "u'\\\\U0001F61C'"
+    prefix: "ji:face-with-stuck-out-tongue-and-winking-eye"
+  "😝":
+    body: "u'\\\\U0001F61D'"
+    prefix: "ji:face-with-stuck-out-tongue-and-tightly-closed-eyes"
+  "😞":
+    body: "u'\\\\U0001F61E'"
+    prefix: "ji:disappointed-face"
+  "😟":
+    body: "u'\\\\U0001F61F'"
+    prefix: "ji:worried-face"
+  "😠":
+    body: "u'\\\\U0001F620'"
+    prefix: "ji:angry-face"
+  "😡":
+    body: "u'\\\\U0001F621'"
+    prefix: "ji:pouting-face"
+  "😢":
+    body: "u'\\\\U0001F622'"
+    prefix: "ji:crying-face"
+  "😣":
+    body: "u'\\\\U0001F623'"
+    prefix: "ji:persevering-face"
+  "😤":
+    body: "u'\\\\U0001F624'"
+    prefix: "ji:face-with-look-of-triumph"
+  "😥":
+    body: "u'\\\\U0001F625'"
+    prefix: "ji:disappointed-but-relieved-face"
+  "😦":
+    body: "u'\\\\U0001F626'"
+    prefix: "ji:frowning-face-with-open-mouth"
+  "😧":
+    body: "u'\\\\U0001F627'"
+    prefix: "ji:anguished-face"
+  "😨":
+    body: "u'\\\\U0001F628'"
+    prefix: "ji:fearful-face"
+  "😩":
+    body: "u'\\\\U0001F629'"
+    prefix: "ji:weary-face"
+  "😪":
+    body: "u'\\\\U0001F62A'"
+    prefix: "ji:sleepy-face"
+  "😫":
+    body: "u'\\\\U0001F62B'"
+    prefix: "ji:tired-face"
+  "😬":
+    body: "u'\\\\U0001F62C'"
+    prefix: "ji:grimacing-face"
+  "😭":
+    body: "u'\\\\U0001F62D'"
+    prefix: "ji:loudly-crying-face"
+  "😮":
+    body: "u'\\\\U0001F62E'"
+    prefix: "ji:face-with-open-mouth"
+  "😯":
+    body: "u'\\\\U0001F62F'"
+    prefix: "ji:hushed-face"
+  "😰":
+    body: "u'\\\\U0001F630'"
+    prefix: "ji:face-with-open-mouth-and-cold-sweat"
+  "😱":
+    body: "u'\\\\U0001F631'"
+    prefix: "ji:face-screaming-in-fear"
+  "😲":
+    body: "u'\\\\U0001F632'"
+    prefix: "ji:astonished-face"
+  "😳":
+    body: "u'\\\\U0001F633'"
+    prefix: "ji:flushed-face"
+  "😴":
+    body: "u'\\\\U0001F634'"
+    prefix: "ji:sleeping-face"
+  "😵":
+    body: "u'\\\\U0001F635'"
+    prefix: "ji:dizzy-face"
+  "😶":
+    body: "u'\\\\U0001F636'"
+    prefix: "ji:face-without-mouth"
+  "😷":
+    body: "u'\\\\U0001F637'"
+    prefix: "ji:face-with-medical-mask"
+  "😸":
+    body: "u'\\\\U0001F638'"
+    prefix: "ji:grinning-cat-face-with-smiling-eyes"
+  "😹":
+    body: "u'\\\\U0001F639'"
+    prefix: "ji:cat-face-with-tears-of-joy"
+  "😺":
+    body: "u'\\\\U0001F63A'"
+    prefix: "ji:smiling-cat-face-with-open-mouth"
+  "😻":
+    body: "u'\\\\U0001F63B'"
+    prefix: "ji:smiling-cat-face-with-heart-shaped-eyes"
+  "😼":
+    body: "u'\\\\U0001F63C'"
+    prefix: "ji:cat-face-with-wry-smile"
+  "😽":
+    body: "u'\\\\U0001F63D'"
+    prefix: "ji:kissing-cat-face-with-closed-eyes"
+  "😾":
+    body: "u'\\\\U0001F63E'"
+    prefix: "ji:pouting-cat-face"
+  "😿":
+    body: "u'\\\\U0001F63F'"
+    prefix: "ji:crying-cat-face"
+  "🙀":
+    body: "u'\\\\U0001F640'"
+    prefix: "ji:weary-cat-face"
+  "🙁":
+    body: "u'\\\\U0001F641'"
+    prefix: "ji:slightly-frowning-face"
+  "🙂":
+    body: "u'\\\\U0001F642'"
+    prefix: "ji:slightly-smiling-face"
+  "🙃":
+    body: "u'\\\\U0001F643'"
+    prefix: "ji:upside-down-face"
+  "🙄":
+    body: "u'\\\\U0001F644'"
+    prefix: "ji:face-with-rolling-eyes"
+  "🙅":
+    body: "u'\\\\U0001F645'"
+    prefix: "ji:face-with-no-good-gesture"
+  "🙆":
+    body: "u'\\\\U0001F646'"
+    prefix: "ji:face-with-ok-gesture"
+  "🙇":
+    body: "u'\\\\U0001F647'"
+    prefix: "ji:person-bowing-deeply"
+  "🙈":
+    body: "u'\\\\U0001F648'"
+    prefix: "ji:see-no-evil-monkey"
+  "🙉":
+    body: "u'\\\\U0001F649'"
+    prefix: "ji:hear-no-evil-monkey"
+  "🙊":
+    body: "u'\\\\U0001F64A'"
+    prefix: "ji:speak-no-evil-monkey"
+  "🙋":
+    body: "u'\\\\U0001F64B'"
+    prefix: "ji:happy-person-raising-one-hand"
+  "🙌":
+    body: "u'\\\\U0001F64C'"
+    prefix: "ji:person-raising-both-hands-in-celebration"
+  "🙍":
+    body: "u'\\\\U0001F64D'"
+    prefix: "ji:person-frowning"
+  "🙎":
+    body: "u'\\\\U0001F64E'"
+    prefix: "ji:person-with-pouting-face"
+  "🙏":
+    body: "u'\\\\U0001F64F'"
+    prefix: "ji:person-with-folded-hands"
+  "🚀":
+    body: "u'\\\\U0001F680'"
+    prefix: "ji:rocket"
+  "🚁":
+    body: "u'\\\\U0001F681'"
+    prefix: "ji:helicopter"
+  "🚂":
+    body: "u'\\\\U0001F682'"
+    prefix: "ji:steam-locomotive"
+  "🚃":
+    body: "u'\\\\U0001F683'"
+    prefix: "ji:railway-car"
+  "🚄":
+    body: "u'\\\\U0001F684'"
+    prefix: "ji:high-speed-train"
+  "🚅":
+    body: "u'\\\\U0001F685'"
+    prefix: "ji:high-speed-train-with-bullet-nose"
+  "🚆":
+    body: "u'\\\\U0001F686'"
+    prefix: "ji:train"
+  "🚇":
+    body: "u'\\\\U0001F687'"
+    prefix: "ji:metro"
+  "🚈":
+    body: "u'\\\\U0001F688'"
+    prefix: "ji:light-rail"
+  "🚉":
+    body: "u'\\\\U0001F689'"
+    prefix: "ji:station"
+  "🚊":
+    body: "u'\\\\U0001F68A'"
+    prefix: "ji:tram"
+  "🚋":
+    body: "u'\\\\U0001F68B'"
+    prefix: "ji:tram-car"
+  "🚌":
+    body: "u'\\\\U0001F68C'"
+    prefix: "ji:bus"
+  "🚍":
+    body: "u'\\\\U0001F68D'"
+    prefix: "ji:oncoming-bus"
+  "🚎":
+    body: "u'\\\\U0001F68E'"
+    prefix: "ji:trolleybus"
+  "🚏":
+    body: "u'\\\\U0001F68F'"
+    prefix: "ji:bus-stop"
+  "🚐":
+    body: "u'\\\\U0001F690'"
+    prefix: "ji:minibus"
+  "🚑":
+    body: "u'\\\\U0001F691'"
+    prefix: "ji:ambulance"
+  "🚒":
+    body: "u'\\\\U0001F692'"
+    prefix: "ji:fire-engine"
+  "🚓":
+    body: "u'\\\\U0001F693'"
+    prefix: "ji:police-car"
+  "🚔":
+    body: "u'\\\\U0001F694'"
+    prefix: "ji:oncoming-police-car"
+  "🚕":
+    body: "u'\\\\U0001F695'"
+    prefix: "ji:taxi"
+  "🚖":
+    body: "u'\\\\U0001F696'"
+    prefix: "ji:oncoming-taxi"
+  "🚗":
+    body: "u'\\\\U0001F697'"
+    prefix: "ji:automobile"
+  "🚘":
+    body: "u'\\\\U0001F698'"
+    prefix: "ji:oncoming-automobile"
+  "🚙":
+    body: "u'\\\\U0001F699'"
+    prefix: "ji:recreational-vehicle"
+  "🚚":
+    body: "u'\\\\U0001F69A'"
+    prefix: "ji:delivery-truck"
+  "🚛":
+    body: "u'\\\\U0001F69B'"
+    prefix: "ji:articulated-lorry"
+  "🚜":
+    body: "u'\\\\U0001F69C'"
+    prefix: "ji:tractor"
+  "🚝":
+    body: "u'\\\\U0001F69D'"
+    prefix: "ji:monorail"
+  "🚞":
+    body: "u'\\\\U0001F69E'"
+    prefix: "ji:mountain-railway"
+  "🚟":
+    body: "u'\\\\U0001F69F'"
+    prefix: "ji:suspension-railway"
+  "🚠":
+    body: "u'\\\\U0001F6A0'"
+    prefix: "ji:mountain-cableway"
+  "🚡":
+    body: "u'\\\\U0001F6A1'"
+    prefix: "ji:aerial-tramway"
+  "🚢":
+    body: "u'\\\\U0001F6A2'"
+    prefix: "ji:ship"
+  "🚣":
+    body: "u'\\\\U0001F6A3'"
+    prefix: "ji:rowboat"
+  "🚤":
+    body: "u'\\\\U0001F6A4'"
+    prefix: "ji:speedboat"
+  "🚥":
+    body: "u'\\\\U0001F6A5'"
+    prefix: "ji:horizontal-traffic-light"
+  "🚦":
+    body: "u'\\\\U0001F6A6'"
+    prefix: "ji:vertical-traffic-light"
+  "🚧":
+    body: "u'\\\\U0001F6A7'"
+    prefix: "ji:construction-sign"
+  "🚨":
+    body: "u'\\\\U0001F6A8'"
+    prefix: "ji:police-cars-revolving-light"
+  "🚩":
+    body: "u'\\\\U0001F6A9'"
+    prefix: "ji:triangular-flag-on-post"
+  "🚪":
+    body: "u'\\\\U0001F6AA'"
+    prefix: "ji:door"
+  "🚫":
+    body: "u'\\\\U0001F6AB'"
+    prefix: "ji:no-entry-sign"
+  "🚬":
+    body: "u'\\\\U0001F6AC'"
+    prefix: "ji:smoking-symbol"
+  "🚭":
+    body: "u'\\\\U0001F6AD'"
+    prefix: "ji:no-smoking-symbol"
+  "🚮":
+    body: "u'\\\\U0001F6AE'"
+    prefix: "ji:put-litter-in-its-place-symbol"
+  "🚯":
+    body: "u'\\\\U0001F6AF'"
+    prefix: "ji:do-not-litter-symbol"
+  "🚰":
+    body: "u'\\\\U0001F6B0'"
+    prefix: "ji:potable-water-symbol"
+  "🚱":
+    body: "u'\\\\U0001F6B1'"
+    prefix: "ji:non-potable-water-symbol"
+  "🚲":
+    body: "u'\\\\U0001F6B2'"
+    prefix: "ji:bicycle"
+  "🚳":
+    body: "u'\\\\U0001F6B3'"
+    prefix: "ji:no-bicycles"
+  "🚴":
+    body: "u'\\\\U0001F6B4'"
+    prefix: "ji:bicyclist"
+  "🚵":
+    body: "u'\\\\U0001F6B5'"
+    prefix: "ji:mountain-bicyclist"
+  "🚶":
+    body: "u'\\\\U0001F6B6'"
+    prefix: "ji:pedestrian"
+  "🚷":
+    body: "u'\\\\U0001F6B7'"
+    prefix: "ji:no-pedestrians"
+  "🚸":
+    body: "u'\\\\U0001F6B8'"
+    prefix: "ji:children-crossing"
+  "🚹":
+    body: "u'\\\\U0001F6B9'"
+    prefix: "ji:mens-symbol"
+  "🚺":
+    body: "u'\\\\U0001F6BA'"
+    prefix: "ji:womens-symbol"
+  "🚻":
+    body: "u'\\\\U0001F6BB'"
+    prefix: "ji:restroom"
+  "🚼":
+    body: "u'\\\\U0001F6BC'"
+    prefix: "ji:baby-symbol"
+  "🚽":
+    body: "u'\\\\U0001F6BD'"
+    prefix: "ji:toilet"
+  "🚾":
+    body: "u'\\\\U0001F6BE'"
+    prefix: "ji:water-closet"
+  "🚿":
+    body: "u'\\\\U0001F6BF'"
+    prefix: "ji:shower"
+  "🛀":
+    body: "u'\\\\U0001F6C0'"
+    prefix: "ji:bath"
+  "🛁":
+    body: "u'\\\\U0001F6C1'"
+    prefix: "ji:bathtub"
+  "🛂":
+    body: "u'\\\\U0001F6C2'"
+    prefix: "ji:passport-control"
+  "🛃":
+    body: "u'\\\\U0001F6C3'"
+    prefix: "ji:customs"
+  "🛄":
+    body: "u'\\\\U0001F6C4'"
+    prefix: "ji:baggage-claim"
+  "🛅":
+    body: "u'\\\\U0001F6C5'"
+    prefix: "ji:left-luggage"
+  "🛋":
+    body: "u'\\\\U0001F6CB'"
+    prefix: "ji:couch-and-lamp"
+  "🛌":
+    body: "u'\\\\U0001F6CC'"
+    prefix: "ji:sleeping-accommodation"
+  "🛍":
+    body: "u'\\\\U0001F6CD'"
+    prefix: "ji:shopping-bags"
+  "🛎":
+    body: "u'\\\\U0001F6CE'"
+    prefix: "ji:bellhop-bell"
+  "🛏":
+    body: "u'\\\\U0001F6CF'"
+    prefix: "ji:bed"
+  "🛐":
+    body: "u'\\\\U0001F6D0'"
+    prefix: "ji:place-of-worship"
+  "🛠":
+    body: "u'\\\\U0001F6E0'"
+    prefix: "ji:hammer-and-wrench"
+  "🛡":
+    body: "u'\\\\U0001F6E1'"
+    prefix: "ji:shield"
+  "🛢":
+    body: "u'\\\\U0001F6E2'"
+    prefix: "ji:oil-drum"
+  "🛣":
+    body: "u'\\\\U0001F6E3'"
+    prefix: "ji:motorway"
+  "🛤":
+    body: "u'\\\\U0001F6E4'"
+    prefix: "ji:railway-track"
+  "🛥":
+    body: "u'\\\\U0001F6E5'"
+    prefix: "ji:motor-boat"
+  "🛩":
+    body: "u'\\\\U0001F6E9'"
+    prefix: "ji:small-airplane"
+  "🛫":
+    body: "u'\\\\U0001F6EB'"
+    prefix: "ji:airplane-departure"
+  "🛬":
+    body: "u'\\\\U0001F6EC'"
+    prefix: "ji:airplane-arriving"
+  "🛰":
+    body: "u'\\\\U0001F6F0'"
+    prefix: "ji:satellite"
+  "🛳":
+    body: "u'\\\\U0001F6F3'"
+    prefix: "ji:passenger-ship"
+  "🤐":
+    body: "u'\\\\U0001F910'"
+    prefix: "ji:zipper-mouth-face"
+  "🤑":
+    body: "u'\\\\U0001F911'"
+    prefix: "ji:money-mouth-face"
+  "🤒":
+    body: "u'\\\\U0001F912'"
+    prefix: "ji:face-with-thermometer"
+  "🤓":
+    body: "u'\\\\U0001F913'"
+    prefix: "ji:nerd-face"
+  "🤔":
+    body: "u'\\\\U0001F914'"
+    prefix: "ji:thinking-face"
+  "🤕":
+    body: "u'\\\\U0001F915'"
+    prefix: "ji:face-with-head-bandage"
+  "🤖":
+    body: "u'\\\\U0001F916'"
+    prefix: "ji:robot-face"
+  "🤗":
+    body: "u'\\\\U0001F917'"
+    prefix: "ji:hugging-face"
+  "🤘":
+    body: "u'\\\\U0001F918'"
+    prefix: "ji:sign-of-the-horns"
+  "🦀":
+    body: "u'\\\\U0001F980'"
+    prefix: "ji:crab"
+  "🦁":
+    body: "u'\\\\U0001F981'"
+    prefix: "ji:lion-face"
+  "🦂":
+    body: "u'\\\\U0001F982'"
+    prefix: "ji:scorpion"
+  "🦃":
+    body: "u'\\\\U0001F983'"
+    prefix: "ji:turkey"
+  "🦄":
+    body: "u'\\\\U0001F984'"
+    prefix: "ji:unicorn-face"
+  "🧀":
+    body: "u'\\\\U0001F9C0'"
+    prefix: "ji:cheese-wedge"
+  "#️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:hash-key"
+  "*⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap_star"
+  "0️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-0"
+  "1️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-1"
+  "2️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-2"
+  "3️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-3"
+  "4️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-4"
+  "5️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-5"
+  "6️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-6"
+  "7️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-7"
+  "8️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-8"
+  "9️⃣":
+    body: "u'\\\\U'\\\\U20E3'"
+    prefix: "ji:keycap-9"
+  "🇦🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-ac"
+  "🇦🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-ad"
+  "🇦🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ae"
+  "🇦🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-af"
+  "🇦🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-ag"
+  "🇦🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-ai"
+  "🇦🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-al"
+  "🇦🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-am"
+  "🇦🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-ao"
+  "🇦🇶":
+    body: "u'\\\\U\\\\U1F1F6'"
+    prefix: "ji:regional-indicator-symbol-letters-aq"
+  "🇦🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-ar"
+  "🇦🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-as"
+  "🇦🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-at"
+  "🇦🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-au"
+  "🇦🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-aw"
+  "🇦🇽":
+    body: "u'\\\\U\\\\U1F1FD'"
+    prefix: "ji:regional-indicator-symbol-letters-ax"
+  "🇦🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-az"
+  "🇧🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ba"
+  "🇧🇧":
+    body: "u'\\\\U\\\\U1F1E7'"
+    prefix: "ji:regional-indicator-symbol-letters-bb"
+  "🇧🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-bd"
+  "🇧🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-be"
+  "🇧🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-bf"
+  "🇧🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-bg"
+  "🇧🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-bh"
+  "🇧🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-bi"
+  "🇧🇯":
+    body: "u'\\\\U\\\\U1F1EF'"
+    prefix: "ji:regional-indicator-symbol-letters-bj"
+  "🇧🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-bl"
+  "🇧🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-bm"
+  "🇧🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-bn"
+  "🇧🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-bo"
+  "🇧🇶":
+    body: "u'\\\\U\\\\U1F1F6'"
+    prefix: "ji:regional-indicator-symbol-letters-bq"
+  "🇧🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-br"
+  "🇧🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-bs"
+  "🇧🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-bt"
+  "🇧🇻":
+    body: "u'\\\\U\\\\U1F1FB'"
+    prefix: "ji:regional-indicator-symbol-letters-bv"
+  "🇧🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-bw"
+  "🇧🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-by"
+  "🇧🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-bz"
+  "🇨🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ca"
+  "🇨🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-cc"
+  "🇨🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-cd"
+  "🇨🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-cf"
+  "🇨🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-cg"
+  "🇨🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-ch"
+  "🇨🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-ci"
+  "🇨🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-ck"
+  "🇨🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-cl"
+  "🇨🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-cm"
+  "🇨🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-cn"
+  "🇨🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-co"
+  "🇨🇵":
+    body: "u'\\\\U\\\\U1F1F5'"
+    prefix: "ji:regional-indicator-symbol-letters-cp"
+  "🇨🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-cr"
+  "🇨🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-cu"
+  "🇨🇻":
+    body: "u'\\\\U\\\\U1F1FB'"
+    prefix: "ji:regional-indicator-symbol-letters-cv"
+  "🇨🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-cw"
+  "🇨🇽":
+    body: "u'\\\\U\\\\U1F1FD'"
+    prefix: "ji:regional-indicator-symbol-letters-cx"
+  "🇨🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-cy"
+  "🇨🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-cz"
+  "🇩🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-de"
+  "🇩🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-dg"
+  "🇩🇯":
+    body: "u'\\\\U\\\\U1F1EF'"
+    prefix: "ji:regional-indicator-symbol-letters-dj"
+  "🇩🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-dk"
+  "🇩🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-dm"
+  "🇩🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-do"
+  "🇩🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-dz"
+  "🇪🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ea"
+  "🇪🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-ec"
+  "🇪🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ee"
+  "🇪🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-eg"
+  "🇪🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-eh"
+  "🇪🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-er"
+  "🇪🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-es"
+  "🇪🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-et"
+  "🇪🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-eu"
+  "🇫🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-fi"
+  "🇫🇯":
+    body: "u'\\\\U\\\\U1F1EF'"
+    prefix: "ji:regional-indicator-symbol-letters-fj"
+  "🇫🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-fk"
+  "🇫🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-fm"
+  "🇫🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-fo"
+  "🇫🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-fr"
+  "🇬🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ga"
+  "🇬🇧":
+    body: "u'\\\\U\\\\U1F1E7'"
+    prefix: "ji:regional-indicator-symbol-letters-gb"
+  "🇬🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-gd"
+  "🇬🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ge"
+  "🇬🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-gf"
+  "🇬🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-gg"
+  "🇬🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-gh"
+  "🇬🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-gi"
+  "🇬🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-gl"
+  "🇬🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-gm"
+  "🇬🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-gn"
+  "🇬🇵":
+    body: "u'\\\\U\\\\U1F1F5'"
+    prefix: "ji:regional-indicator-symbol-letters-gp"
+  "🇬🇶":
+    body: "u'\\\\U\\\\U1F1F6'"
+    prefix: "ji:regional-indicator-symbol-letters-gq"
+  "🇬🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-gr"
+  "🇬🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-gs"
+  "🇬🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-gt"
+  "🇬🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-gu"
+  "🇬🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-gw"
+  "🇬🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-gy"
+  "🇭🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-hk"
+  "🇭🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-hm"
+  "🇭🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-hn"
+  "🇭🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-hr"
+  "🇭🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-ht"
+  "🇭🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-hu"
+  "🇮🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-ic"
+  "🇮🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-id"
+  "🇮🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ie"
+  "🇮🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-il"
+  "🇮🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-im"
+  "🇮🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-in"
+  "🇮🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-io"
+  "🇮🇶":
+    body: "u'\\\\U\\\\U1F1F6'"
+    prefix: "ji:regional-indicator-symbol-letters-iq"
+  "🇮🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-ir"
+  "🇮🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-is"
+  "🇮🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-it"
+  "🇯🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-je"
+  "🇯🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-jm"
+  "🇯🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-jo"
+  "🇯🇵":
+    body: "u'\\\\U\\\\U1F1F5'"
+    prefix: "ji:regional-indicator-symbol-letters-jp"
+  "🇰🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ke"
+  "🇰🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-kg"
+  "🇰🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-kh"
+  "🇰🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-ki"
+  "🇰🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-km"
+  "🇰🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-kn"
+  "🇰🇵":
+    body: "u'\\\\U\\\\U1F1F5'"
+    prefix: "ji:regional-indicator-symbol-letters-kp"
+  "🇰🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-kr"
+  "🇰🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-kw"
+  "🇰🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-ky"
+  "🇰🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-kz"
+  "🇱🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-la"
+  "🇱🇧":
+    body: "u'\\\\U\\\\U1F1E7'"
+    prefix: "ji:regional-indicator-symbol-letters-lb"
+  "🇱🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-lc"
+  "🇱🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-li"
+  "🇱🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-lk"
+  "🇱🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-lr"
+  "🇱🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-ls"
+  "🇱🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-lt"
+  "🇱🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-lu"
+  "🇱🇻":
+    body: "u'\\\\U\\\\U1F1FB'"
+    prefix: "ji:regional-indicator-symbol-letters-lv"
+  "🇱🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-ly"
+  "🇲🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ma"
+  "🇲🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-mc"
+  "🇲🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-md"
+  "🇲🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-me"
+  "🇲🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-mf"
+  "🇲🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-mg"
+  "🇲🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-mh"
+  "🇲🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-mk"
+  "🇲🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-ml"
+  "🇲🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-mm"
+  "🇲🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-mn"
+  "🇲🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-mo"
+  "🇲🇵":
+    body: "u'\\\\U\\\\U1F1F5'"
+    prefix: "ji:regional-indicator-symbol-letters-mp"
+  "🇲🇶":
+    body: "u'\\\\U\\\\U1F1F6'"
+    prefix: "ji:regional-indicator-symbol-letters-mq"
+  "🇲🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-mr"
+  "🇲🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-ms"
+  "🇲🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-mt"
+  "🇲🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-mu"
+  "🇲🇻":
+    body: "u'\\\\U\\\\U1F1FB'"
+    prefix: "ji:regional-indicator-symbol-letters-mv"
+  "🇲🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-mw"
+  "🇲🇽":
+    body: "u'\\\\U\\\\U1F1FD'"
+    prefix: "ji:regional-indicator-symbol-letters-mx"
+  "🇲🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-my"
+  "🇲🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-mz"
+  "🇳🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-na"
+  "🇳🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-nc"
+  "🇳🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ne"
+  "🇳🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-nf"
+  "🇳🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-ng"
+  "🇳🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-ni"
+  "🇳🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-nl"
+  "🇳🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-no"
+  "🇳🇵":
+    body: "u'\\\\U\\\\U1F1F5'"
+    prefix: "ji:regional-indicator-symbol-letters-np"
+  "🇳🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-nr"
+  "🇳🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-nu"
+  "🇳🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-nz"
+  "🇴🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-om"
+  "🇵🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-pa"
+  "🇵🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-pe"
+  "🇵🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-pf"
+  "🇵🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-pg"
+  "🇵🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-ph"
+  "🇵🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-pk"
+  "🇵🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-pl"
+  "🇵🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-pm"
+  "🇵🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-pn"
+  "🇵🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-pr"
+  "🇵🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-ps"
+  "🇵🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-pt"
+  "🇵🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-pw"
+  "🇵🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-py"
+  "🇶🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-qa"
+  "🇷🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-re"
+  "🇷🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-ro"
+  "🇷🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-rs"
+  "🇷🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-ru"
+  "🇷🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-rw"
+  "🇸🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-sa"
+  "🇸🇧":
+    body: "u'\\\\U\\\\U1F1E7'"
+    prefix: "ji:regional-indicator-symbol-letters-sb"
+  "🇸🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-sc"
+  "🇸🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-sd"
+  "🇸🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-se"
+  "🇸🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-sg"
+  "🇸🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-sh"
+  "🇸🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-si"
+  "🇸🇯":
+    body: "u'\\\\U\\\\U1F1EF'"
+    prefix: "ji:regional-indicator-symbol-letters-sj"
+  "🇸🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-sk"
+  "🇸🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-sl"
+  "🇸🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-sm"
+  "🇸🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-sn"
+  "🇸🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-so"
+  "🇸🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-sr"
+  "🇸🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-ss"
+  "🇸🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-st"
+  "🇸🇻":
+    body: "u'\\\\U\\\\U1F1FB'"
+    prefix: "ji:regional-indicator-symbol-letters-sv"
+  "🇸🇽":
+    body: "u'\\\\U\\\\U1F1FD'"
+    prefix: "ji:regional-indicator-symbol-letters-sx"
+  "🇸🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-sy"
+  "🇸🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-sz"
+  "🇹🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ta"
+  "🇹🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-tc"
+  "🇹🇩":
+    body: "u'\\\\U\\\\U1F1E9'"
+    prefix: "ji:regional-indicator-symbol-letters-td"
+  "🇹🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-tf"
+  "🇹🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-tg"
+  "🇹🇭":
+    body: "u'\\\\U\\\\U1F1ED'"
+    prefix: "ji:regional-indicator-symbol-letters-th"
+  "🇹🇯":
+    body: "u'\\\\U\\\\U1F1EF'"
+    prefix: "ji:regional-indicator-symbol-letters-tj"
+  "🇹🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-tk"
+  "🇹🇱":
+    body: "u'\\\\U\\\\U1F1F1'"
+    prefix: "ji:regional-indicator-symbol-letters-tl"
+  "🇹🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-tm"
+  "🇹🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-tn"
+  "🇹🇴":
+    body: "u'\\\\U\\\\U1F1F4'"
+    prefix: "ji:regional-indicator-symbol-letters-to"
+  "🇹🇷":
+    body: "u'\\\\U\\\\U1F1F7'"
+    prefix: "ji:regional-indicator-symbol-letters-tr"
+  "🇹🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-tt"
+  "🇹🇻":
+    body: "u'\\\\U\\\\U1F1FB'"
+    prefix: "ji:regional-indicator-symbol-letters-tv"
+  "🇹🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-tw"
+  "🇹🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-tz"
+  "🇺🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-ua"
+  "🇺🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-ug"
+  "🇺🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-um"
+  "🇺🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-us"
+  "🇺🇾":
+    body: "u'\\\\U\\\\U1F1FE'"
+    prefix: "ji:regional-indicator-symbol-letters-uy"
+  "🇺🇿":
+    body: "u'\\\\U\\\\U1F1FF'"
+    prefix: "ji:regional-indicator-symbol-letters-uz"
+  "🇻🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-va"
+  "🇻🇨":
+    body: "u'\\\\U\\\\U1F1E8'"
+    prefix: "ji:regional-indicator-symbol-letters-vc"
+  "🇻🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ve"
+  "🇻🇬":
+    body: "u'\\\\U\\\\U1F1EC'"
+    prefix: "ji:regional-indicator-symbol-letters-vg"
+  "🇻🇮":
+    body: "u'\\\\U\\\\U1F1EE'"
+    prefix: "ji:regional-indicator-symbol-letters-vi"
+  "🇻🇳":
+    body: "u'\\\\U\\\\U1F1F3'"
+    prefix: "ji:regional-indicator-symbol-letters-vn"
+  "🇻🇺":
+    body: "u'\\\\U\\\\U1F1FA'"
+    prefix: "ji:regional-indicator-symbol-letters-vu"
+  "🇼🇫":
+    body: "u'\\\\U\\\\U1F1EB'"
+    prefix: "ji:regional-indicator-symbol-letters-wf"
+  "🇼🇸":
+    body: "u'\\\\U\\\\U1F1F8'"
+    prefix: "ji:regional-indicator-symbol-letters-ws"
+  "🇽🇰":
+    body: "u'\\\\U\\\\U1F1F0'"
+    prefix: "ji:regional-indicator-symbol-letters-xk"
+  "🇾🇪":
+    body: "u'\\\\U\\\\U1F1EA'"
+    prefix: "ji:regional-indicator-symbol-letters-ye"
+  "🇾🇹":
+    body: "u'\\\\U\\\\U1F1F9'"
+    prefix: "ji:regional-indicator-symbol-letters-yt"
+  "🇿🇦":
+    body: "u'\\\\U\\\\U1F1E6'"
+    prefix: "ji:regional-indicator-symbol-letters-za"
+  "🇿🇲":
+    body: "u'\\\\U\\\\U1F1F2'"
+    prefix: "ji:regional-indicator-symbol-letters-zm"
+  "🇿🇼":
+    body: "u'\\\\U\\\\U1F1FC'"
+    prefix: "ji:regional-indicator-symbol-letters-zw"
+  "👨‍👨‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:man-man-boy"
+  "👨‍👨‍👦‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:man-man-boy-boy"
+  "👨‍👨‍👧":
+    body: "u'\\\\U\\\\U1F467'"
+    prefix: "ji:man-man-girl"
+  "👨‍👨‍👧‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:man-man-girl-boy"
+  "👨‍👨‍👧‍👧":
+    body: "u'\\\\U\\\\U1F467'"
+    prefix: "ji:man-man-girl-girl"
+  "👨‍👩‍👦‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:man-woman-boy-boy"
+  "👨‍👩‍👧":
+    body: "u'\\\\U\\\\U1F467'"
+    prefix: "ji:man-woman-girl"
+  "👨‍👩‍👧‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:man-woman-girl-boy"
+  "👨‍👩‍👧‍👧":
+    body: "u'\\\\U\\\\U1F467'"
+    prefix: "ji:man-woman-girl-girl"
+  "👨‍❤️‍👨":
+    body: "u'\\\\U\\\\U1F468'"
+    prefix: "ji:man-heart-man"
+  "👨‍❤️‍💋‍👨":
+    body: "u'\\\\U\\\\U1F468'"
+    prefix: "ji:man-kiss-man"
+  "👩‍👩‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:woman-woman-boy"
+  "👩‍👩‍👦‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:woman-woman-boy-boy"
+  "👩‍👩‍👧":
+    body: "u'\\\\U\\\\U1F467'"
+    prefix: "ji:woman-woman-girl"
+  "👩‍👩‍👧‍👦":
+    body: "u'\\\\U\\\\U1F466'"
+    prefix: "ji:woman-woman-girl-boy"
+  "👩‍👩‍👧‍👧":
+    body: "u'\\\\U\\\\U1F467'"
+    prefix: "ji:woman-woman-girl-girl"
+  "👩‍❤️‍👩":
+    body: "u'\\\\U\\\\U1F469'"
+    prefix: "ji:woman-heart-woman"
+  "👩‍❤️‍💋‍👩":
+    body: "u'\\\\U\\\\U1F469'"
+    prefix: "ji:woman-kiss-woman"
