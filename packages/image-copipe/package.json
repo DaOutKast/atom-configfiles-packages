@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-117012-8688-16hab8z"
+    ]
+  ],
+  "_from": "..\\d-117012-8688-10mnn9l\\package.tgz",
+  "_id": "image-copipe@0.3.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/image-copipe",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117012-8688-10mnn9l\\package.tgz",
+  "_shasum": "da02d6fc88c8161853398eba53eb6473bb0f2111",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-8688-10mnn9l\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-117012-8688-16hab8z",
+  "bugs": {
+    "url": "https://github.com/sagaraya/image-copipe/issues"
+  },
+  "dependencies": {
+    "request": "~2.55.0"
+  },
+  "description": "Easy image uploads. Copy and paste image to markdown.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/sagaraya/image-copipe#readme",
+  "license": "MIT",
+  "main": "./lib/image-copipe",
+  "name": "image-copipe",
+  "optionalDependencies": {},
+  "readme": "# image-copipe package\n\nEasy image uploads when writing markdown with atom.\nCopy image or take screenshot, then paste on editor like Github, Qiita and Slack.\n\n![](https://i.gyazo.com/c5bf3dd399dc25d579871ee5d16e5e69.gif)\n\n\n## Usage\n\n1. take screenshot or copy image\n - `cmd + shift + 4`. then capture area with pressing ctrl\n - copy image by context menu\n2. paste image by `cmd + v`\n\n\n## Dependency\nimage-copipe use imgur api.\n\n\n## Known issue\ncannot paste animation gif.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagaraya/image-copipe.git"
+  },
+  "version": "0.3.1"
+}

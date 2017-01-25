@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-117012-11192-1l3rvm9"
+    ]
+  ],
+  "_from": "..\\d-117012-11192-67x5kk\\package.tgz",
+  "_id": "atom-image-resize@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-image-resize",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117012-11192-67x5kk\\package.tgz",
+  "_shasum": "b00bf47341c7b8804bde098f87132e91fd303ad8",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117012-11192-67x5kk\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-117012-11192-1l3rvm9",
+  "bugs": {
+    "url": "https://github.com/geekduck/atom-image-resize/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "fs-plus": "^2.8.1",
+    "space-pen": "^5.1.1",
+    "underscore-plus": "^1.6.6"
+  },
+  "description": "A resize tool for image files and Base64 encoded images.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/geekduck/atom-image-resize#readme",
+  "keywords": [
+    "preview",
+    "resize",
+    "image",
+    "base64"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-image-resize",
+  "optionalDependencies": {},
+  "readme": "# atom-image-resize package\n\n[![Build Status](https://travis-ci.org/geekduck/atom-image-resize.svg)](https://travis-ci.org/geekduck/atom-image-resize)\n\nA resize plugin for image files and Base64 encoded images.\n\n## Demo\n\n### Resize image file\n\n![Resize image file](https://raw.githubusercontent.com/geekduck/atom-image-resize/master/docs/resize1.gif)\n\n### Resize base64 encoded image\n\n![Resize base64 encoded image](https://raw.githubusercontent.com/geekduck/atom-image-resize/master/docs/resize2.gif)\n\n\n## Installation\n\n```\napm install atom-image-resize\n```\n\n## Features\n\n* Preview image file(jpg, png, gif) and base64-encoded image string.\n* Resize image.\n* Save as file.\n* Copy base64-encoded image string to clipboard. \n\n# Usage\n\nIn menu `[Packages -> Resize Image -> Toggle]`\n\nor\n\nOpen command palette `cmd-shift-p` (OSX) or `ctrl-shift-p` (Linux/Windows) then filter 'resize'",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekduck/atom-image-resize.git"
+  },
+  "version": "0.3.0"
+}

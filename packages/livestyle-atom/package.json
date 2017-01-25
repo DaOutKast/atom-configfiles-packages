@@ -1,0 +1,377 @@
+{
+  "name": "livestyle-atom",
+  "version": "0.2.7",
+  "description": "Atom plugin for Emmet LiveStyle",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "livestyle",
+    "css",
+    "scss",
+    "less",
+    "live",
+    "edit"
+  ],
+  "author": {
+    "name": "Sergey Chikuyonok",
+    "email": "serge.che@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "crc": "^3.4.0",
+    "deep-equal": "^1.0.1",
+    "emmet-livestyle": "^0.9.30",
+    "glob": "^6.0.3",
+    "livestyle-analyzer": "^1.0.1",
+    "ws": "^1.0.0"
+  },
+  "config": {
+    "websocketUrl": "ws://127.0.0.1:54000/livestyle"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livestyle/atom.git"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/livestyle/atom/issues"
+  },
+  "homepage": "http://livestyle.io",
+  "directories": {
+    "test": "test"
+  },
+  "readme": "# LiveStyle plugin for Atom\n\n*Currently in beta and may contain bugs. Makes excessive console logging, it can be disabled in package settings.*\n\n[LiveStyle](http://livestyle.io) is a real-time bi-directional edit tool for CSS, LESS and SCSS. [Read about LiveStyle project](http://livestyle.io/docs/) before using this plugin.\n\n## Installation\n\nThis plugin can be installed as regular Atom package:\n\n1. In Atom, go to `Preferences > Install`.\n2. Search for `livestyle-atom` plugin and install it.\n\nOr you can install it via `apm`:\n\n`apm install livestyle-atom`\n\n## Usage\n\nThis plugin doesn’t require any special setup: simply start Atom and Google Chrome and you are ready for real-time editing.\n\nWhen creating a new, unsaved files, make sure you set document syntax to either `CSS`, `LESS` or `SCSS`, otherwise this document won’t appear in LiveStyle popup in Chrome.\n\n## Setting global dependencies for preprocessors\n\nAs described in [Working with preprocessors](http://livestyle.io/docs/preprocessors/) section of LiveStyle docs, it is possible to provide global dependencies that will be used for parsing preprocessor files.\n\nCurrently, Atom doesn‘t provide any means to create project-level configs. In order to set global dependencies, you have to create `livestyle.json` (or `.livestyle.json`) file in your project root with content like this:\n\n```json\n{\n    \"globals\": [\"path/to/dep.scss\", \"libs/*.scss\"]\n}\n```\n\n* All paths must be relative to `livestyle.json`’s folder.\n* You can set either direct file paths or use glob patterns, but remember that sometimes order of dependencies matters.\n* Too much global dependencies will slow down LiveStyle, workflow with many dependencies wasn’t optimized yet. So keep only those dependencies you actually use.\n\n# LiveStyle Analyzer\n\nLiveStyle Analyzer is an experimental UI that displays various code hints right in LESS and SCSS editors so you can have better overview of how compiled CSS will look like.\n\nBy default, *computed value* and *resolved selector* hints are displayed automatically when you move caret inside value or selector respectively. This can be disabled in package preferences. All the other hints (including *computed value* and *resolved selector*) can be toggled with `livestyle:show-widget` command.\n\n**Tip:** bind `livestyle:show-widget` action to a [keyboard shortcut](http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings) of your choice to quickly toggle code hints.\n\n> LiveStyle Analyzer works for currently opened file only: it doesn’t read data from `@import` or global stylesheets yet. But you can help to make it happen! Stay tuned for updates at [@emmetio](https://twitter.com/emmetio)\n\n## Computed value\n\nDisplays computed result of property value expressions, if possible. Also displays color previews even for static values. Hint is displayed automatically when you move caret inside property value, but you can disable it in package preferences and display manually with `livestyle:show-widget` command.\n\n![Computed Value example](https://raw.githubusercontent.com/livestyle/atom/gh-pages/images/computed-value.gif)\n\n## Resolved selector\n\nDisplays resolved CSS selector for nested sections. Hint is displayed automatically when you move caret inside selector, but you can disable it in package preferences and display manually with `livestyle:show-widget` command.\n\n![Resolved selector example](https://raw.githubusercontent.com/livestyle/atom/gh-pages/images/selector.gif)\n\n## Variables and mixin completions\n\nProvides variables (with computed values, if possible) and mixin completions for standard Atom’s autocomplete. LiveStyle tries to be smart here: it displays variables (and their values) available exactly for current scope, not all variables from current file.\n\n![Completions](https://raw.githubusercontent.com/livestyle/atom/gh-pages/images/completions.gif)\n\n## Mixin output\n\nA little triangle near mixin call means LiveStyle was able to find matched mixin definitions. Hold down Cmd (Mac) or Ctrl key and click on mixin call (or call `livestyle:show-widget` action) to display computed output. Output is updated in real-time when you edit mixin call arguments.\n\n![Mixin output example](https://raw.githubusercontent.com/livestyle/atom/gh-pages/images/mixin%20call.gif)\n\n## Suggested variables\n\nFor static values (e.g. values without expressions) LiveStyle tries to find variables with the same or similar (for colors) values. If such variables found, displays rounded underline under property value. Hold down Cmd (Mac) or Ctrl key and click on property value (or call `livestyle:show-widget` action) to display suggested variables. You may then click on variable to replace value with it or hit Esc key to close popup.\n\n![Suggested variables example](https://raw.githubusercontent.com/livestyle/atom/gh-pages/images/suggested.gif)\n\n## Quick outline\n\nRun `livestyle:show-outline` command to display current stylesheet tree and its resolved CSS. Useful for finding source of generated CSS selectors: open quick outline, switch to Result tree (can be done with Tab key as well), find required CSS node and click on it to go to LESS/SCSS source.\n\n![Suggested variables example](https://raw.githubusercontent.com/livestyle/atom/gh-pages/images/outline.gif)\n\n### How it works\n\nLiveStyle uses its own implementations of LESS and SCSS preprocessors, written in pure JavaScript. Unlike official preprocessors implementations with sourcemaps, LiveStyle provides proper source-to-result mappings, variable and mixin scopes, error recovery and partial compilation.\n\nLiveStyle produces two trees for given LESS/SCSS source code: one with source and another with CSS result. All CSS result nodes holds variables and mixins scope and references to source tree node that produced it. These trees then passed to Analyzer module which extracts required data from them and adds as [markers](https://atom.io/docs/api/v1.8.0/TextEditorMarker) into text editor (these markers contains `livestyle` property). Authors can create custom plugins that read these marker’s data and provide custom UI, hints and so on.\n\n### Ideas?\n\nWith LiveStyle engine, it’s possible to use static analysis of preprocessor stylesheets, do code refactoring and much, much more. If you have any suggestions how LESS and SCSS coding experiences can be improved, feel free to [create a new issue](https://github.com/livestyle/atom/issues) with your suggestions.\n",
+  "readmeFilename": "README.md",
+  "_id": "livestyle-atom@0.2.7",
+  "_shasum": "88db2e98a5939511429a8ab416463edf1eedb00a",
+  "_resolved": "file:..\\d-116813-716-1flyv5b\\package.tgz",
+  "_from": "..\\d-116813-716-1flyv5b\\package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "crc",
+        "version": "3.4.0",
+        "path": "node_modules\\crc\\lib\\index.js"
+      },
+      {
+        "name": "deep-equal",
+        "version": "1.0.1",
+        "path": "node_modules\\deep-equal\\index.js"
+      },
+      {
+        "name": "emmet-livestyle",
+        "version": "0.9.30",
+        "path": "node_modules\\emmet-livestyle\\livestyle.js"
+      },
+      {
+        "name": "glob",
+        "version": "6.0.4",
+        "path": "node_modules\\glob\\glob.js"
+      },
+      {
+        "name": "inflight",
+        "version": "1.0.5",
+        "path": "node_modules\\glob\\node_modules\\inflight\\inflight.js"
+      },
+      {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "path": "node_modules\\glob\\node_modules\\inflight\\node_modules\\wrappy\\wrappy.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.3",
+        "path": "node_modules\\glob\\node_modules\\inherits\\inherits.js"
+      },
+      {
+        "name": "minimatch",
+        "version": "3.0.3",
+        "path": "node_modules\\glob\\node_modules\\minimatch\\minimatch.js"
+      },
+      {
+        "name": "brace-expansion",
+        "version": "1.1.6",
+        "path": "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\index.js"
+      },
+      {
+        "name": "balanced-match",
+        "version": "0.4.2",
+        "path": "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\balanced-match\\index.js"
+      },
+      {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "path": "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\concat-map\\index.js"
+      },
+      {
+        "name": "once",
+        "version": "1.4.0",
+        "path": "node_modules\\glob\\node_modules\\once\\once.js"
+      },
+      {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "path": "node_modules\\glob\\node_modules\\once\\node_modules\\wrappy\\wrappy.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.0",
+        "path": "node_modules\\glob\\node_modules\\path-is-absolute\\index.js"
+      },
+      {
+        "name": "livestyle-analyzer",
+        "version": "1.0.1",
+        "path": "node_modules\\livestyle-analyzer\\index.js"
+      },
+      {
+        "name": "livestyle-css-expression",
+        "version": "1.0.1",
+        "path": "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\index.js"
+      },
+      {
+        "name": "ws",
+        "version": "1.1.1",
+        "path": "node_modules\\ws\\index.js"
+      },
+      {
+        "name": "options",
+        "version": "0.0.6",
+        "path": "node_modules\\ws\\node_modules\\options\\lib\\options.js"
+      },
+      {
+        "name": "ultron",
+        "version": "1.0.2",
+        "path": "node_modules\\ws\\node_modules\\ultron\\index.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "index.js",
+        "lib\\analyzer\\autocomplete.js",
+        "lib\\analyzer\\config.js",
+        "lib\\analyzer\\convert.js",
+        "lib\\analyzer\\cursor.js",
+        "lib\\analyzer\\decorator.js",
+        "lib\\analyzer\\hyperlink.js",
+        "lib\\analyzer\\indentation.js",
+        "lib\\analyzer\\index.js",
+        "lib\\analyzer\\utils.js",
+        "lib\\analyzer\\widget\\AbstractWidget.js",
+        "lib\\analyzer\\widget\\colorPreview.js",
+        "lib\\analyzer\\widget\\ComputedValueWidget.js",
+        "lib\\analyzer\\widget\\HyperlinkDecoration.js",
+        "lib\\analyzer\\widget\\index.js",
+        "lib\\analyzer\\widget\\LiveStyleWidget.js",
+        "lib\\analyzer\\widget\\MixinWidget.js",
+        "lib\\analyzer\\widget\\node-filter.js",
+        "lib\\analyzer\\widget\\OutlineWidget.js",
+        "lib\\analyzer\\widget\\registry.js",
+        "lib\\analyzer\\widget\\SelectorWidget.js",
+        "lib\\analyzer\\widget\\type.js",
+        "lib\\analyzer\\widget\\VariableSuggestWidget.js",
+        "lib\\analyzer\\worker.js",
+        "lib\\cache-map.js",
+        "lib\\client.js",
+        "lib\\debug.js",
+        "lib\\diff.js",
+        "lib\\editor.js",
+        "lib\\project-config.js",
+        "lib\\read-file.js",
+        "lib\\server.js",
+        "node_modules\\crc\\lib\\crc1.js",
+        "node_modules\\crc\\lib\\crc16.js",
+        "node_modules\\crc\\lib\\crc16_ccitt.js",
+        "node_modules\\crc\\lib\\crc16_kermit.js",
+        "node_modules\\crc\\lib\\crc16_modbus.js",
+        "node_modules\\crc\\lib\\crc16_xmodem.js",
+        "node_modules\\crc\\lib\\crc24.js",
+        "node_modules\\crc\\lib\\crc32.js",
+        "node_modules\\crc\\lib\\crc8.js",
+        "node_modules\\crc\\lib\\crc8_1wire.js",
+        "node_modules\\crc\\lib\\define_crc.js",
+        "node_modules\\crc\\lib\\index.js",
+        "node_modules\\deep-equal\\example\\cmp.js",
+        "node_modules\\deep-equal\\index.js",
+        "node_modules\\deep-equal\\lib\\is_arguments.js",
+        "node_modules\\deep-equal\\lib\\keys.js",
+        "node_modules\\emmet-livestyle\\livestyle.js",
+        "node_modules\\glob\\common.js",
+        "node_modules\\glob\\glob.js",
+        "node_modules\\glob\\node_modules\\inflight\\inflight.js",
+        "node_modules\\glob\\node_modules\\inflight\\node_modules\\wrappy\\wrappy.js",
+        "node_modules\\glob\\node_modules\\inherits\\inherits.js",
+        "node_modules\\glob\\node_modules\\inherits\\inherits_browser.js",
+        "node_modules\\glob\\node_modules\\minimatch\\minimatch.js",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\index.js",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\balanced-match\\index.js",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\concat-map\\example\\map.js",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\concat-map\\index.js",
+        "node_modules\\glob\\node_modules\\once\\node_modules\\wrappy\\wrappy.js",
+        "node_modules\\glob\\node_modules\\once\\once.js",
+        "node_modules\\glob\\node_modules\\path-is-absolute\\index.js",
+        "node_modules\\glob\\sync.js",
+        "node_modules\\livestyle-analyzer\\index.js",
+        "node_modules\\livestyle-analyzer\\lib\\completions.js",
+        "node_modules\\livestyle-analyzer\\lib\\computed-values.js",
+        "node_modules\\livestyle-analyzer\\lib\\mixin-call.js",
+        "node_modules\\livestyle-analyzer\\lib\\references.js",
+        "node_modules\\livestyle-analyzer\\lib\\representation-node.js",
+        "node_modules\\livestyle-analyzer\\lib\\selectors.js",
+        "node_modules\\livestyle-analyzer\\lib\\source-representation-node.js",
+        "node_modules\\livestyle-analyzer\\lib\\variable-suggest.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\index.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\color-keywords.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\color.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\context.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\evaluator.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\functions.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\parser.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\patcher.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\split.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\string-stream.js",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\lib\\token.js",
+        "node_modules\\ws\\index.js",
+        "node_modules\\ws\\lib\\BufferPool.js",
+        "node_modules\\ws\\lib\\BufferUtil.fallback.js",
+        "node_modules\\ws\\lib\\BufferUtil.js",
+        "node_modules\\ws\\lib\\ErrorCodes.js",
+        "node_modules\\ws\\lib\\Extensions.js",
+        "node_modules\\ws\\lib\\PerMessageDeflate.js",
+        "node_modules\\ws\\lib\\Receiver.hixie.js",
+        "node_modules\\ws\\lib\\Receiver.js",
+        "node_modules\\ws\\lib\\Sender.hixie.js",
+        "node_modules\\ws\\lib\\Sender.js",
+        "node_modules\\ws\\lib\\Validation.fallback.js",
+        "node_modules\\ws\\lib\\Validation.js",
+        "node_modules\\ws\\lib\\WebSocket.js",
+        "node_modules\\ws\\lib\\WebSocketServer.js",
+        "node_modules\\ws\\node_modules\\options\\lib\\options.js",
+        "node_modules\\ws\\node_modules\\ultron\\index.js",
+        "node_modules\\ws\\node_modules\\ultron\\test.js"
+      ],
+      ".json": [
+        "node_modules\\crc\\package.json",
+        "node_modules\\deep-equal\\package.json",
+        "node_modules\\emmet-livestyle\\package.json",
+        "node_modules\\glob\\node_modules\\inflight\\node_modules\\wrappy\\package.json",
+        "node_modules\\glob\\node_modules\\inflight\\package.json",
+        "node_modules\\glob\\node_modules\\inherits\\package.json",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\balanced-match\\package.json",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\node_modules\\concat-map\\package.json",
+        "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion\\package.json",
+        "node_modules\\glob\\node_modules\\minimatch\\package.json",
+        "node_modules\\glob\\node_modules\\once\\node_modules\\wrappy\\package.json",
+        "node_modules\\glob\\node_modules\\once\\package.json",
+        "node_modules\\glob\\node_modules\\path-is-absolute\\package.json",
+        "node_modules\\glob\\package.json",
+        "node_modules\\livestyle-analyzer\\node_modules\\livestyle-css-expression\\package.json",
+        "node_modules\\livestyle-analyzer\\package.json",
+        "node_modules\\ws\\node_modules\\options\\package.json",
+        "node_modules\\ws\\node_modules\\ultron\\package.json",
+        "node_modules\\ws\\package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "lib\\analyzer",
+          "lib\\analyzer\\widget",
+          "lib",
+          "test",
+          "test\\fixtures\\conf1",
+          "test\\fixtures\\conf2",
+          "test\\fixtures\\conf3",
+          "test\\fixtures\\conf4"
+        ],
+        "dependencies": {
+          "crc": "^3.4.0",
+          "deep-equal": "^1.0.1",
+          "emmet-livestyle": "^0.9.30",
+          "glob": "^6.0.3",
+          "livestyle-analyzer": "^1.0.1",
+          "ws": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\glob"
+        ],
+        "dependencies": {
+          "inflight": "^1.0.4",
+          "inherits": "2",
+          "minimatch": "2 || 3",
+          "once": "^1.3.0",
+          "path-is-absolute": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\glob\\node_modules\\inflight"
+        ],
+        "dependencies": {
+          "once": "^1.3.0",
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\glob\\node_modules\\minimatch"
+        ],
+        "dependencies": {
+          "brace-expansion": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\glob\\node_modules\\minimatch\\node_modules\\brace-expansion"
+        ],
+        "dependencies": {
+          "balanced-match": "^0.4.1",
+          "concat-map": "0.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\glob\\node_modules\\once"
+        ],
+        "dependencies": {
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\livestyle-analyzer",
+          "node_modules\\livestyle-analyzer\\lib",
+          "node_modules\\livestyle-analyzer\\test"
+        ],
+        "dependencies": {
+          "livestyle-css-expression": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules\\ws",
+          "node_modules\\ws\\lib"
+        ],
+        "dependencies": {
+          "options": ">=0.0.5",
+          "ultron": "1.0.x"
+        }
+      }
+    ]
+  }
+}

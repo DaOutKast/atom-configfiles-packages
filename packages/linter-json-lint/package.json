@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116914-7068-apv8bs"
+    ]
+  ],
+  "_from": "..\\d-116914-7068-wmqbni\\package.tgz",
+  "_id": "linter-json-lint@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/linter-json-lint",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-116914-7068-wmqbni\\package.tgz",
+  "_shasum": "27622f2e4dc82f449438a3d8d2dbd78928d9c5e8",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-7068-wmqbni\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116914-7068-apv8bs",
+  "bugs": {
+    "url": "https://github.com/josa42/atom-linter-json-lint/issues"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "json-lint": "^0.1.0 "
+  },
+  "description": "Lint `json` on the fly, using json-lint",
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^2.1.0"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/josa42/atom-linter-json-lint#readme",
+  "license": "MIT",
+  "main": "./lib/init",
+  "name": "linter-json-lint",
+  "optionalDependencies": {},
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "readme": "# linter-json-lint\n\n[![Build Status](https://img.shields.io/travis/josa42/atom-linter-json-lint.svg?style=flat-square)](https://travis-ci.org/josa42/atom-linter-json-lint)\n[![Plugin installs!](https://img.shields.io/apm/dm/linter-json-lint.svg?style=flat-square)](https://atom.io/packages/linter-json-lint)\n[![Package version!](https://img.shields.io/apm/v/linter-json-lint.svg?style=flat-square)](https://atom.io/packages/linter-json-lint)\n[![Dependencies!](https://img.shields.io/david/josa42/atom-linter-json-lint.svg?style=flat-square)](https://david-dm.org/josa42/atom-linter-json-lint)\n\nThis linter plugin for [Linter](https://github.com/atom-community/linter) provides an interface to [json-lint](https://github.com/codenothing/jsonlint).\n\n## Configuration\n\n* **Allow Comments**\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josa42/atom-linter-json-lint.git"
+  },
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "version": "0.1.1"
+}

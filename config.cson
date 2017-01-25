@@ -1,0 +1,51 @@
+"*":
+  "activate-power-mode":
+    particles:
+      colours:
+        type: "random"
+    playAudio: {}
+  "atom-2048":
+    "Enable Power Mode": true
+  "atom-clock":
+    dateFormat: " dddd, DD MMMM YYYY || hh:mm:ss a"
+    refreshInterval: 1
+    showClockIcon: true
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "simple-drag-drop-text"
+      "livestyle-atom"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
+    projectHome: "C:\\Users\\Ruhjaan\\Documents\\Ruhjaan\\Workspace"
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    warnOnLargeFileLimit: 2
+  editor:
+    atomicSoftTabs: false
+    fontSize: 16
+    invisibles: {}
+    showIndentGuide: true
+    zoomFontWhenCtrlScrolling: false
+  emmet: {}
+  "emoji-syntax":
+    emojiStyles: "Emoji One"
+  "exception-reporting":
+    userId: "493f0aba-0c08-a70e-8b1b-8b9ff4ff0617"
+  "linter-scss-lint":
+    disableWhenNoConfigFileInPath: true
+  "livestyle-atom":
+    analyzer:
+      notifyCampaign: false
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
+  welcome:
+    showOnStartup: false
+".basic.html.text":
+  editor:
+    tabLength: 1

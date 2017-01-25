@@ -1,0 +1,320 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+'.text.html.basic':
+    'Mailer Table tr td':
+      'prefix': 'table-mailer'
+      'body': """
+      <table align="center" cellpadding="0" cellspacing="0" border="0" width="$1" style="width: $2; border-spacing:0px; mso-table-lspace: 0pt;mso-table-rspace: 0pt; border: none;" class="$3">$0
+       <tr>
+        <td valign="top">
+
+        </td>
+       </tr>
+      </table>
+        """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'Mailer Layout':
+      'prefix': 'layout-mailer'
+      'body': """
+         <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+         <html xmlns="http://www.w3.org/1999/xhtml">
+         <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Subject line</title>
+          <!-- Outlook --><!--[if gte mso 15]>
+          <style type="text/css">
+          table { font-size:1px; line-height:0; mso-margin-top-alt:1px; }
+         </style>
+         <![endif]--><!--[if gte mso 9]>
+         <style>
+         table{
+         border-collapse: collapse;
+         mso-table-lspace: 0pt;
+         mso-table-rspace: 0pt;
+         }
+         table td{
+         border-collapse: collapse;
+         }
+         .wrapper table{
+         border-collapse: collapse;
+         mso-table-lspace: 0pt;
+         mso-table-rspace: 0pt;
+         }
+         .wrapper table td{
+         border-collapse: collapse;
+         }
+         </style>
+         <![endif]-->
+         <style type="text/css">#outlook a {padding:0;}
+         body, #yiv2200947006 body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+         .ExternalClass {width:100%;}
+         .ExternalClass, .ExternalClass a, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+         #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+         img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+         a img { border:none; display: block; }
+         .image_fix {display:block;}
+         p {margin: 1em 0;}
+         table td {border-collapse: collapse;}
+         table{
+          border-collapse: collapse;
+          mso-table-lspace: 0pt;
+          mso-table-rspace: 0pt;
+         }
+         table td{
+          border-collapse: collapse;
+          border: 0;
+         }
+         p {margin: 0 !important;}
+         .ExternalClass p  {margin: 0;}
+
+         /*Mobile Breakpoint*/
+         @media screen and (max-width: 480px) {
+          .body {
+           margin: 0;
+           padding: 0;
+          }
+          .email-wrapper {
+           width: 320px !important;
+          }
+          .content-wrapper {
+           width: 280px !important;
+          }
+          /*Copy*/
+          .body-copy-padding {
+           padding-left: 25px !important;
+           padding-right: 25px !important;
+          }
+          /*Copy End*/
+          .padding-remove {
+           padding-top: 0 !important;
+           padding-right: 0 !important;
+           padding-bottom: 0 !important;
+           padding-left: 0 !important;
+          }
+          .mobile-swap {
+           mso-hide:none;
+           max-height: 100% !important;
+           width: 100% !important;
+           height: auto;
+           display: block  !important;
+           overflow: hidden;
+          }
+          .res-hide {
+           display: none;
+           display: none !important;
+          }
+          /*Gmail Fix*/
+          .gmailfix {
+           display: none;
+           display: none !important;
+          }
+          /*Gmail Fix End*/
+         }
+         /*End Mobile Breakpoint*/
+         </style>
+         </head>
+         <body style="margin: 0; padding: 0; width: 100%; background-color: #ffffff;" class="body">
+          <table align="center" cellpadding="0" cellspacing="0" border="0" style="width: 100%; border-spacing:0px; mso-table-lspace: 0pt;mso-table-rspace: 0pt; border: none; background-color:#ffffff;" class="email-wrapper">
+           <tr>
+            <td valign="top">
+             <table align="center" cellpadding="0" cellspacing="0" border="0" width="600" style="width: 600px; border-spacing:0px; mso-table-lspace: 0pt;mso-table-rspace: 0pt; border: none;" class="email-wrapper">
+              <tr>
+               <td valign="top">
+                $1
+               </td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+          <!-- GMAIL FIXES -->
+           <div class="gmailfix" style="white-space:nowrap; font:15px courier; line-height:0;">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+           </div>
+           <!-- <div class=”gmailfix” style="white-space:nowrap; font:15px courier; color:#ffffff;">
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+           </div> -->
+           <!-- GMAIL FIXES END -->
+         </body>
+         </html>
+         """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'Table Styles':
+      'prefix': 'table-style'
+      'body': 'style="border-spacing:0px; mso-table-lspace: 0pt;mso-table-rspace: 0pt; border: none;"'
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'Image Swap':
+      'prefix': 'image-swap'
+      'body': '<!--[if !mso]><!-- --><img src="" alt="" width="100%" style="vertical-align:top;border:0;outline:none;mso-hide:all;max-height:0;display:none;overflow:hidden;" class="mobile=-swap"/><!--<![endif]-->'
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'Image Swap Styles':
+      'prefix': 'image-swap-styles'
+      'body': """
+        .mobile-swap {
+    			mso-hide:none;
+    				max-height: 100% !important;
+    				width: 100% !important;
+    				height: auto;
+    				display: block  !important;
+    				overflow: hidden;
+    		}
+      """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'MSO TD':
+      'prefix': 'mso-td'
+      'body': """
+      <!--[if gte mso 9]>
+      </td>
+      <td>
+      <![endif]-->
+      """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+# JS SNIPPETS
+'.source.js':
+    'isEven':
+      'prefix': 'isEven'
+      'body': """
+        var isEven = function(number) {
+          if(number % 2 === 0){
+            return true;
+          } else if (isNaN(number)) {
+            return "This is not a number;"
+          } else {
+            return false;
+          }
+        };
+      """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'JS EVENT KEY CODES':
+      'prefix': 'js-keycode'
+      'body': """
+        window.addEventListener('keydown', function(e) {
+          console.log(e.keyCode);
+        });
+      """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#
+    'Map Style - Night':
+      'prefix': 'mapstyle-night'
+      'body': """
+      // MAP STYLED TO NIGHT MODE
+      'styles' : [
+              {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+              {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+              {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+              {
+                featureType: 'administrative.locality',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#d59563'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#d59563'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'geometry',
+                stylers: [{color: '#263c3f'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#6b9a76'}]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [{color: '#38414e'}]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#212a37'}]
+              },
+              {
+                featureType: 'road',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#9ca5b3'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry',
+                stylers: [{color: '#746855'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#1f2835'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#f3d19c'}]
+              },
+              {
+                featureType: 'transit',
+                elementType: 'geometry',
+                stylers: [{color: '#2f3948'}]
+              },
+              {
+                featureType: 'transit.station',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#d59563'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'geometry',
+                stylers: [{color: '#17263c'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#515c6d'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.stroke',
+                stylers: [{color: '#17263c'}]
+              }
+            ]
+      // END NIGHT MODE STYLES
+      """
+#---------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------#

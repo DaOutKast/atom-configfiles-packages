@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116914-9852-og1x14"
+    ]
+  ],
+  "_from": "..\\d-116914-9852-ay17np\\package.tgz",
+  "_id": "sass-compiler@0.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/sass-compiler",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-116914-9852-ay17np\\package.tgz",
+  "_shasum": "4c5616a3511d201d54aea2c284d16ac17b758848",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116914-9852-ay17np\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116914-9852-og1x14",
+  "bugs": {
+    "url": "https://github.com/GomatoX/sass-compiler/issues"
+  },
+  "dependencies": {},
+  "description": "Sass Compiler based on node-sass library that provides binding for Node.js to libsass. Works only with scss syntax. ",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.170.0"
+  },
+  "homepage": "https://github.com/GomatoX/sass-compiler#readme",
+  "license": "MIT",
+  "main": "./lib/sass-compiler",
+  "name": "sass-compiler",
+  "optionalDependencies": {},
+  "readme": "# Sass Compiler for ATOM editor\n\nSass Compiler based on node-sass library that provides binding for Node.js to libsass. Works only with scss syntax.\n\n## Dependencies\n* node-sass library https://github.com/sass/node-sass\n\n## Modes\nAvailable two compiling file detection modes:\n* Base path is editor project.\n* Tries to extract current path from editable file. It will check if **inputPath** value are in editable file path, and it will be reference point for compiling `Scss` file. Aslo it could be specified based on reference point with **outputPathExtracted**.\n\n## Settings\n| Parameter           \t| Description                                    \t|\n|---------------------\t|--------------------------------------------------------------------------------------------------------------------\t|\n| inputPath           \t| Specifies where the *Scss* files are stored. ( Path relative to your project ).                                    \t|\n| outputPath          \t| This specifies where the *CSS* will be saved. ( Path relative to your project ).                                   \t|\n| fileName            \t| *Scss* type file name, to be parent of all @include.                                                               \t|\n| outputStyle         \t| `String` to determine how the final *CSS* should be rendered. Its value should be one of `nested` or `compressed`. \t|\n| successMsg          \t| Eneable/disable success message.                                                                                   \t|\n| extractPath         \t| Eneable/disable - Get path from file. ( package tries to extract current path based on editable file and sets reference point ).                              \t|\n| inputPathExtracted  \t| Specifies where your *Scss* files are stored. ( Relative to extracted reference point ).                            \t|\n| outputPathExtracted \t| Specifies where the *CSS* will be saved. ( Relative to extracted reference point ).                                 \t|\n\n## Plans\n* Include `node-sass` in package dependencies to use apm node not local one.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GomatoX/sass-compiler.git"
+  },
+  "version": "0.4.0"
+}

@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-11697-22176-ybozsj"
+    ]
+  ],
+  "_from": "..\\d-11697-22176-1ewgjpi\\package.tgz",
+  "_id": "tetromino@0.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/tetromino",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11697-22176-1ewgjpi\\package.tgz",
+  "_shasum": "8f6d11ff9a58a099e658a3a4b90a65bece0d6e61",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-22176-1ewgjpi\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-11697-22176-ybozsj",
+  "activationCommands": {
+    "atom-workspace": "tetromino:play"
+  },
+  "author": {
+    "name": "Vincent Hiribarren"
+  },
+  "bugs": {
+    "url": "https://github.com/vhiribarren/atom-tetromino/issues"
+  },
+  "dependencies": {},
+  "description": "Another falling block game to waste time on Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/vhiribarren/atom-tetromino#readme",
+  "keywords": [
+    "tetromino",
+    "tetris",
+    "game",
+    "fun",
+    "block",
+    "falling"
+  ],
+  "license": "MIT",
+  "main": "./lib/tetromino",
+  "name": "tetromino",
+  "optionalDependencies": {},
+  "readme": "# Tetromino\n\nAnother [tetromino][tetromino-wikipedia] falling block game implementation.\n\nRemember the hidden tetromino game in Emacs using the `M-x tetris` command? I just wanted the same kind of useful tool with Atom.\n\n![TetrominoDemo](https://raw.githubusercontent.com/vhiribarren/atom-tetromino/master/materials/tetromino.gif)\n\n## Commands\n\nOpen the game using the command palette `Tetromino: Play` or the `Tetromino` sub-menu in the `Packages` menu.\n\nThe current commands to play the game are:\n\n- `left`: move block to left\n- `right`: move block to right\n- `bottom`: accelerate drop of block\n- `up`: rotate block to right\n- `space`: rotate block to right\n- `alt`: rotate block to left\n- `p`: pause\n\n## Contributions\n\nContributions and bug reports are welcome. Please keep in mind that the whole idea of the project is to have a minimalist implementation of the tetromino falling block game, so the game must not evolve too much. It is only for fun, like the Emacs tetromino game.\n\n[tetromino-wikipedia]: https://en.wikipedia.org/wiki/Tetromino\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhiribarren/atom-tetromino.git"
+  },
+  "version": "0.6.0"
+}

@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116912-5952-1azc2wd"
+    ]
+  ],
+  "_from": "..\\d-116912-5952-1atohem\\package.tgz",
+  "_id": "an-color-picker@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/an-color-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-116912-5952-1atohem\\package.tgz",
+  "_shasum": "6cf01e9c13b3dde41af63f5fe040f8b8fda7cf9d",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-116912-5952-1atohem\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-116912-5952-1azc2wd",
+  "activationCommands": {
+    "atom-workspace": [
+      "an-color-picker:show"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/yoran-brault/atom-an-color-picker/issues"
+  },
+  "dependencies": {},
+  "description": "Atom color picker !!!",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/yoran-brault/atom-an-color-picker#readme",
+  "keywords": [
+    "color picker"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "name": "an-color-picker",
+  "optionalDependencies": {},
+  "readme": "# an-color-picker\n\nA simple \"real\" color picker. By \"real\" I mean it's able to pick colors anywhere on any screen.\n\n# dependencies\n\nThis package rely on python and pygtk.\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoran-brault/atom-an-color-picker.git"
+  },
+  "version": "1.0.2"
+}

@@ -1,0 +1,71 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on OS X and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'atom-workspace':
+ 'ctrl-shift-up': 'editor:add-selection-above'
+ 'ctrl-shift-down': 'editor:add-selection-below'
+ 'ctrl-alt-t': 'tetromino:play'
+
+'.editor:not(.mini)':
+ 'shift-ctrl-h': 'hex:view'
+
+'atom-text-editor':
+## emmet snippets
+  # 'tab': 'emmet:next-edit-point'
+  'shift-return': 'emmet:expand-abbreviation'
+  'ctrl-shift-E':	'emmet:balance-outward'
+  'ctrl-shift-0':	'emmet:balance-inward'
+  'ctrl-alt-j':	'emmet:matching-pair'
+  'ctrl-alt-right':	'emmet:next-edit-point'
+  'ctrl-alt-left':	'emmet:prev-edit-point'
+  'ctrl-shift-`':	'emmet:split-join-tag'
+  'ctrl-shift-;':	'emmet:remove-tag'
+  'ctrl-shift-.':	'emmet:select-next-item'
+  'ctrl-shift-,':	'emmet:select-previous-item'
+  'ctrl-shift-6':	'emmet:update-tag'
+  'ctrl-shift-Y':	'emmet:evaluate-math-expression'
+  'alt-shift-up':	'emmet:increment-number-by-10'
+  'ctrl-shift-R':	'emmet:reflect-css-value'
+  'ctrl-shift-M':	'emmet:merge-lines'
+  'ctrl-alt-w':	'emmet:wrap-with-abbreviation'
+  'ctrl-alt-enter':	'emmet:interactive-expand-abbreviation'
+  'alt-up':	'emmet:increment-number-by-01'
+  'alt-down':	'emmet:decrement-number-by-01'
+  'ctrl-8':	'emmet:increment-number-by-1'
+  'ctrl-2':	'emmet:decrement-number-by-1'
+  'alt-shift-down':	'emmet:decrement-number-by-10'
+  'ctrl-u':	'emmet:update-image-size'
+  'ctrl-e':	'emmet:encode-decode-data-url'
+  'ctrl-shift-/':	'emmet:toggle-comment	atom-pane'
+  # 'enter':	'emmet:insert-formatted-line-break-only	atom-pane atom-text-editor[data-grammar~="html"]:not([mini]):not(.autocomplete-active), atom-pane atom-text-editor[data-grammar~="xml"]:not([mini]):not(.autocomplete-active)'
+## emmet snippets end

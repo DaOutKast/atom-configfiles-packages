@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-117025-11544-jdknxs"
+    ]
+  ],
+  "_from": "..\\d-117025-11544-y42kst\\package.tgz",
+  "_id": "emoji-syntax@1.6.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/emoji-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117025-11544-y42kst\\package.tgz",
+  "_shasum": "79dd094d146b235080fcc81b835dbf60b85cd0b0",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-117025-11544-y42kst\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-117025-11544-jdknxs",
+  "author": {
+    "name": "Moritz Kröger",
+    "email": "write@morkro.de"
+  },
+  "bugs": {
+    "url": "https://github.com/morkro/atom-emoji-syntax/issues"
+  },
+  "dependencies": {
+    "configstore": "^2.0.0",
+    "emojilib": "^2.0.2",
+    "event-kit": "^2.0.0"
+  },
+  "description": "Adds customisable emoji to your syntax keywords",
+  "devDependencies": {
+    "eslint": "2.x",
+    "eslint-config-airbnb": "9.x",
+    "eslint-plugin-import": "1.x"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/morkro/atom-emoji-syntax#readme",
+  "keywords": [
+    "emoji",
+    "syntax",
+    "language"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "emoji-syntax",
+  "optionalDependencies": {},
+  "readme": "<h1><img src=\"https://rawgit.com/morkro/atom-emoji-syntax/master/resources/emoji-syntax-logo.svg\" alt=\"Emoji Syntax\" style=\"width:100%;\"></h1>\n\n<a href=\"https://travis-ci.org/morkro/atom-emoji-syntax\"><img src=\"https://travis-ci.org/morkro/atom-emoji-syntax.svg?branch=master\" alt=\"Build Status\"></a> <img alt=\"devDependencies\" src=\"https://david-dm.org/morkro/atom-emoji-syntax.svg\">\n\nGetting bored of your code? Already tried out hundreds of syntax highlighter but always felt something is missing?\n\n**Emoji Syntax is what you need!**\n\nAn atom package adding emoji to language keywords.\n\n## State Of Project :white_check_mark: _[active]_\nThe project is in **active development**.\n\n## Installation\nInstall Emoji Syntax either via `apm`\n```\napm install emoji-syntax\n```\nor search for `emoji syntax` in your Atom settings panel.\n\n## Features :fire:\n- **Emoji-Syntax is on top of your syntax theme**; you can still choose any theme you like\n- Choose between four different emoji styles\n- Change existing keywords with *any* emoji you want\n- Define position and spacing of an emoji around the keyword\n- Disable entire languages or only specific keywords\n\n_This package does not actually add emoji characters to your code—don't worry—your linter or tests won't go crazy!_\n\n## Supported Languages :microphone:\nOnly official language packages are supported. Other language packages might use different selectors to highlight syntax and not work as intended.\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Language</th>\n\t\t\t<th>Preview</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>JavaScript</td>\n\t\t\t<td><img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/ffa417c7/resources/javascript-preview.png\" title=\"JavaScript\" alt=\"JavaScript\"></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>TypeScript</td>\n\t\t\t<td><img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/ffa417c7/resources/typescript-preview.png\" title=\"TypeScript\" alt=\"TypeScript\"></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CSS</td>\n\t\t\t<td><img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/ffa417c7/resources/css-preview.png\" title=\"CSS\" alt=\"CSS\"></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sass</td>\n\t\t\t<td><img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/ffa417c7/resources/scss-preview.png\" title=\"SCSS\" alt=\"SCSS\"></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>PHP</td>\n\t\t\t<td><img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/ffa417c7/resources/php-preview.png\" title=\"PHP\" alt=\"PHP\"></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Python</td>\n\t\t\t<td><img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/ffa417c7/resources/python-preview.png\" title=\"Python\" alt=\"Python\"></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n## Icon Sets\n_Note: not all emoji are supported in each of the custom sets yet!_\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th style=\"width:15%;\">Emoji style</th>\n\t\t\t<th>Preview</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Native</td>\n\t\t\t<td>\n\t\t\t\t<img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/0fde8866/resources/style-preview-native.png\" alt=\"Native\">\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Twemoji</td>\n\t\t\t<td>\n\t\t\t\t<img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/0fde8866/resources/style-preview-twemoji.png\" alt=\"Twemoji\">\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Noto Emoji</td>\n\t\t\t<td>\n\t\t\t\t<img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/0fde8866/resources/style-preview-noto-emoji.png\" alt=\"Noto Emoji\">\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>EmojiOne™</td>\n\t\t\t<td>\n\t\t\t\t<img src=\"https://cdn.rawgit.com/morkro/atom-emoji-syntax/0fde8866/resources/style-preview-emojione.png\" alt=\"EmojiOne™\">\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n## Settings :wrench:\n\n| Name                                                           | Default |                 Options                |\n|:---------------------------------------------------------------|:-------:|:--------------------------------------:|\n| **Emoji Style**: Lets you choose between different emoji icon sets | `Native`  | `Native, Twemoji, Noto Emoji, Emoji One` |\n\n## Emoji Settings Page :wrench:\nEmoji Syntax comes with its own settings page. There you can customise, activate and deactivate every emoji for each language. The settings page is available through `Packages > Emoji Syntax > Settings` or the `emoji-syntax:settings` command.\n\n![Emoji Settings Page](https://cdn.rawgit.com/morkro/atom-emoji-syntax/master/resources/settingspage-preview.png)\n\nEach language has its own section which you can deactivate. Doing that, the entire language won't have any emoji. The following options are available:\n\n- `Emoji`: opens a modal of emoji to choose from\n- `Position`: the position of the emoji around the keyword (e.g. `📦 import` or `import 📦 `)\n- `Spacing`: adds spacing between emoji and keyword (e.g. `function 🔧 () {}` or `function🔧 () {}`)\n\n## Contribution :family:\n\nIf you want to contribute by either extending/improving a language set, adding a new language, fixing a bug or anything else you can do that by simply sending a pull request.\n\n[API documentation](https://doclets.io/morkro/atom-emoji-syntax/master) via Doclets.\n\n## License :copyright:\nThe code is available under [MIT License](https://github.com/morkro/atom-emoji-syntax/blob/master/LICENSE).\n\n#### Emoji graphics\n- [Twemoji](https://github.com/twitter/twemoji) licensed under [CC-BY 4.0](https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS)\n- [Noto Emoji](https://github.com/googlei18n/noto-emoji) licensed under [SIL Open Font License, version 1.1](https://github.com/googlei18n/noto-emoji/blob/master/fonts/LICENSE)\n- [EmojiOne™](https://github.com/Ranks/emojione) licensed under [Creative Commons Attribution 4.0 International](https://github.com/Ranks/emojione/blob/master/LICENSE.md)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morkro/atom-emoji-syntax.git"
+  },
+  "scripts": {
+    "lint": "eslint lib && eslint spec"
+  },
+  "version": "1.6.2"
+}

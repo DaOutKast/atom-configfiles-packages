@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+        "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-11697-7612-1312een"
+    ]
+  ],
+  "_from": "..\\d-11697-7612-1rnff31\\package.tgz",
+  "_id": "zip-folder@3.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/zip-folder",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+    "spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11697-7612-1rnff31\\package.tgz",
+  "_shasum": "59cb28cf315a0f7bf6830f8ab4cfeb190a2848d4",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\d-11697-7612-1rnff31\\package.tgz",
+  "_where": "C:\\Users\\Ruhjaan\\AppData\\Local\\Temp\\apm-install-dir-11697-7612-1312een",
+  "activationCommands": {
+    "atom-workspace": "zip-folder:run"
+  },
+  "bugs": {
+    "url": "https://github.com/JakeDixon/zip-folder/issues"
+  },
+  "dependencies": {
+    "fs-plus": "2.x",
+    "jszip": "2.5.0"
+  },
+  "description": "Quickly zip files and folders from within Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/JakeDixon/zip-folder#readme",
+  "keywords": [
+    "zip",
+    "folder",
+    "zip folder",
+    "archive folder",
+    "archive"
+  ],
+  "license": "MIT",
+  "main": "./lib/zip-folder",
+  "name": "zip-folder",
+  "optionalDependencies": {},
+  "readme": "# zip-folder package\n\nZips the selected files and folders from the tree view.\n\nJust right click on a selected item and click 'Zip selected'.\n\n![alt text](https://raw.githubusercontent.com/JakeDixon/zip-folder/master/images/zip-folder.gif \"Zip Folder in action\")\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeDixon/zip-folder.git"
+  },
+  "version": "3.2.0"
+}
